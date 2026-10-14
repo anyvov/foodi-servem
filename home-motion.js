@@ -33,16 +33,28 @@
     el.addEventListener('focusin',finish);
     focusCleanups.push(()=>el.removeEventListener('focusin',finish));
    }
+   function scrollReveal(el,from,trigger,start='top 92%',end='top 35%'){
+    const tween=gsap.fromTo(el,from,{y:0,x:0,rotation:0,scale:1,opacity:1,
+     ease:'none',scrollTrigger:{trigger,start,end,scrub:.65}});
+    // Keyboard users immediately get a stationary, fully revealed link.
+    const finish=()=>{tween.scrollTrigger.disable(false);tween.progress(1);};
+    const resume=event=>{if(!el.contains(event.relatedTarget))tween.scrollTrigger.enable();};
+    el.addEventListener('focusin',finish);el.addEventListener('focusout',resume);
+    focusCleanups.push(()=>{el.removeEventListener('focusin',finish);el.removeEventListener('focusout',resume);});
+   }
    document.querySelectorAll('.collection-item').forEach((el,i)=>{
-    reveal(el,{y:desktop?95:30,opacity:.3,rotation:desktop?(i%2?2:-2):0},desktop?i*.1:0);
+    if(desktop)scrollReveal(el,{y:110+i*32,x:(i-1.5)*18,rotation:(i-1.5)*4,scale:.88,opacity:.4},'.collection-grid');
+    else reveal(el,{y:35,opacity:.35});
    });
    document.querySelectorAll('.home-promotions-grid article').forEach((el,i)=>{
-    reveal(el,{y:desktop?65:28,opacity:.35},desktop?i*.12:0);
+    if(desktop)scrollReveal(el,{y:i===1?140:75,x:0,rotation:0,scale:.96,opacity:.4},'.home-promotions-grid');
+    else reveal(el,{y:28,opacity:.35});
     const img=el.querySelector('img');
     if(img)reveal(img,{clipPath:'inset(0% 12% 14% 12%)'},desktop?i*.12:0);
    });
    document.querySelectorAll('.space-grid>a').forEach((el,i)=>{
-    reveal(el,{y:desktop?85:28,opacity:.35},desktop?i*.13:0);
+    if(desktop)scrollReveal(el,{y:90+i*55,x:0,rotation:0,scale:.92,opacity:.4},'.space-grid');
+    else reveal(el,{y:28,opacity:.35});
     const caption=el.querySelector('figcaption');
     if(caption)reveal(caption,{x:desktop?0:12,y:desktop?22:0},desktop?i*.13+.15:0);
    });
@@ -68,7 +80,9 @@
     let current=-1;
     const show=index=>{
      if(index===current)return;current=index;
-     scenes.forEach((scene,i)=>{scene.classList.toggle('is-active',i===index);gsap.to(scene,{autoAlpha:i===index?1:0,duration:.5,overwrite:true});});
+     scenes.forEach((scene,i)=>{scene.classList.toggle('is-active',i===index);gsap.to(scene,{autoAlpha:i===index?1:0,duration:.6,overwrite:true});
+      if(i===index){gsap.fromTo(scene.querySelector('img'),{scale:1.12,y:24},{scale:1,y:0,duration:1.1,ease:'power2.out',overwrite:true});gsap.fromTo(scene.querySelector('.scene-word'),{y:32,opacity:0},{y:0,opacity:1,duration:.75,ease:'power3.out',overwrite:true});}
+     });
      steps.forEach((step,i)=>step.classList.toggle('is-current',i===index));
      count.textContent=`0${index+1} / 04`;
      gsap.to('.story-track>span',{scaleX:(index+1)/4,duration:.5,overwrite:true});
@@ -76,8 +90,8 @@
     steps.forEach((step,i)=>ST.create({trigger:step,start:'top 60%',end:'bottom 60%',onEnter:()=>show(i),onEnterBack:()=>show(i)}));
     // Restore the correct chapter when re-enabling motion mid-page.
     let initial=0;steps.forEach((step,i)=>{if(step.getBoundingClientRect().top<innerHeight*.6)initial=i;});show(initial);
-    gsap.from('.company-wordmark',{y:80,opacity:.2,ease:'none',scrollTrigger:{trigger:'.company-story',start:'top bottom',end:'center center',scrub:.6}});
-    document.querySelectorAll('.space-grid img').forEach(el=>gsap.from(el,{scale:1.13,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'center center',scrub:.6}}));
+    gsap.fromTo('.company-wordmark',{xPercent:-7,y:70,opacity:.3},{xPercent:7,y:-50,opacity:1,ease:'none',scrollTrigger:{trigger:'.company-story',start:'top bottom',end:'bottom top',scrub:.8}});
+    document.querySelectorAll('.space-grid img').forEach(el=>gsap.fromTo(el,{scale:1.24,yPercent:6},{scale:1,yPercent:0,ease:'none',scrollTrigger:{trigger:el.closest('.space-photo'),start:'top bottom',end:'bottom 35%',scrub:.8}}));
    }
    return()=>{focusCleanups.forEach(cleanup=>cleanup());cleanupCinema?.();resetScenes();};
   });

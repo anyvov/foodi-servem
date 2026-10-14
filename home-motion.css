@@ -22,3 +22,10 @@
  .home-promotions-grid article:hover h3{color:var(--red)}
 }
 @media(prefers-reduced-motion:reduce){.story-step:before,.space-grid i,.document-links b,.news-rows>a>span,.closing-link>b{transition:none}}
+
+/* Scroll-led depth; images stay clipped inside their own frames. */
+.space-photo{overflow:hidden;min-width:0;align-self:stretch}
+.space-photo img{display:block;transform-origin:center}
+.company-story{overflow:clip}
+@media(min-width:901px){.collection-grid{perspective:1200px}.collection-item{transform-origin:50% 85%}}
+@media(max-width:600px){.space-grid .space-photo img{height:100%;min-height:195px;object-fit:cover}}
