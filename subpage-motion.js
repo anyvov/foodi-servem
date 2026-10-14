@@ -16,23 +16,23 @@
    if(!allowed()||!el.isConnected||el.contains(document.activeElement)||!el.animate)return;
    completed.add(el);
    const siblings=Array.from(el.parentElement.children).filter(n=>n.matches(selector));
-   const delay=mobile.matches?0:Math.min(Math.max(siblings.indexOf(el),0),3)*65;
+   const delay=mobile.matches?Math.min(Math.max(siblings.indexOf(el),0),2)*90:Math.min(Math.max(siblings.indexOf(el),0),3)*65;
    const photo=el.matches('.company-lead>figure,.chapter-body>figure,.product-visual,.ceo-portrait');
    const title=el.matches('.sub-hero h1,.inner-section-title,.chapter-top');
    const card=el.matches('.promise-grid>article,.facility-showcase>article,.equipment-grid>article,.product-card');
    const index=Math.max(siblings.indexOf(el),0);
-   const distance=mobile.matches?18:photo?50:32;
+   const distance=mobile.matches?38:photo?50:32;
    let frames=[{opacity:.35,transform:`translateY(${distance}px)`},{opacity:1,transform:'none'}];
    if(!mobile.matches){
     if(photo)frames=[{opacity:.5,clipPath:'inset(12% 18% 12% 0%)',transform:'translateY(55px) scale(.94)'},{opacity:1,clipPath:'inset(0% 0% 0% 0%)',transform:'none'}];
     else if(title)frames=[{opacity:.3,transform:'translateX(-36px) skewX(-3deg)'},{opacity:1,transform:'none'}];
     else if(card)frames=[{opacity:.35,transform:`perspective(1000px) translateY(${65+(index%3)*20}px) rotateX(8deg) scale(.94)`},{opacity:1,transform:'none'}];
    }
-   const a=el.animate(frames,{duration:mobile.matches?550:1100,delay,easing:'cubic-bezier(.2,.7,.2,1)',fill:'backwards'});
+   const a=el.animate(frames,{duration:mobile.matches?1250:1100,delay,easing:mobile.matches?'cubic-bezier(.22,.45,.25,1)':'cubic-bezier(.2,.7,.2,1)',fill:'backwards'});
    running.set(el,a);
    a.onfinish=a.oncancel=()=>{if(running.get(el)===a)running.delete(el);};
   });
- },{threshold:0,rootMargin:'0px 0px -24px 0px'}):null;
+ },{threshold:0,rootMargin:mobile.matches?'0px 0px -80px 0px':'0px 0px -24px 0px'}):null;
  function scan(){
   root.querySelectorAll(selector).forEach(el=>{if(seen.has(el))return;seen.add(el);if(observer&&allowed())observer.observe(el);});
   running.forEach((a,el)=>{if(!el.isConnected)finish(el);});
