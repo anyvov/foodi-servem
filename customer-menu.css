@@ -12,3 +12,11 @@
 
 /* Shared contact details on every public page. */
 footer .footer-contact{display:flex;flex-wrap:wrap;gap:8px 20px;margin:16px 0;font-size:12px;line-height:1.8}footer .footer-contact a,footer .footer-contact>span{display:inline-flex;align-items:baseline;gap:7px;min-height:32px}footer .footer-contact strong{font-size:10px;letter-spacing:.07em;font-weight:600}footer .footer-contact a:hover{text-decoration:underline;text-underline-offset:4px}footer .footer-contact a:focus-visible{outline:2px solid currentColor;outline-offset:4px}@media(max-width:600px){footer .footer-contact{flex-direction:column;gap:2px}footer .footer-contact a{min-height:44px;align-items:center}}
+
+.scroll-top{position:fixed;right:24px;bottom:24px;bottom:max(24px,env(safe-area-inset-bottom));z-index:90;width:50px;height:50px;display:grid;place-items:center;padding:0;border:1px solid #8f2937;border-radius:50%;background:#8f2937;color:#fff;box-shadow:0 4px 16px #0002;cursor:pointer;transition:background-color .2s,transform .2s}
+.scroll-top[hidden]{display:none}
+.scroll-top svg{display:block;pointer-events:none}
+.scroll-top:focus-visible{outline:3px solid #8f2937;outline-offset:4px}
+@media(hover:hover){.scroll-top:hover{background:#71212c;transform:translateY(-3px)}}
+@media(max-width:600px){.scroll-top{right:16px;bottom:16px;bottom:max(16px,env(safe-area-inset-bottom));width:46px;height:46px}}
+@media(prefers-reduced-motion:reduce){.scroll-top{transition:none}}
