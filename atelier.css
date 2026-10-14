@@ -15,3 +15,9 @@
 
 /* Keep the film control aligned after removing the explanatory caption. */
 .media-caption #film-toggle{margin-left:auto}
+
+/* Make homepage footer links as recognizable as subpage footer links. */
+.atelier-footer nav a,.atelier-footer .footer-contact a{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.atelier-footer nav a{display:inline-block;padding-block:5px}
+.atelier-footer a:hover{color:var(--red)}
+.atelier-footer a:focus-visible{outline:2px solid var(--red);outline-offset:4px}
