@@ -5,7 +5,7 @@
  const reduce=matchMedia('(prefers-reduced-motion: reduce)');
  const mobile=matchMedia('(max-width: 900px)');
  const connection=navigator.connection;
- const seen=new WeakSet(),running=new Map();
+ const seen=new WeakSet(),completed=new WeakSet(),running=new Map();
  const selector='.sub-hero h1,.sub-hero .eyebrow,.sub-hero>p,.inner-section-title,.company-lead>div,.company-lead>figure,.promise-grid>article,.ceo-portrait,.ceo-letter,.history-ledger>article,.document-grid>article,.partner-grid>article,.chapter-top,.chapter-body>figure,.chapter-body>div,.facility-showcase>article,.equipment-grid>article,.product-visual,.product-profile,.product-card,.board-toolbar,.board-search,.contact-aside,.cta-band';
  const allowed=()=>!reduce.matches&&!connection?.saveData;
  const finish=el=>{const a=running.get(el);if(a){a.cancel();running.delete(el);}};
@@ -14,6 +14,7 @@
    if(!isIntersecting)return;
    observer.unobserve(el);
    if(!allowed()||!el.isConnected||el.contains(document.activeElement)||!el.animate)return;
+   completed.add(el);
    const siblings=Array.from(el.parentElement.children).filter(n=>n.matches(selector));
    const delay=mobile.matches?0:Math.min(Math.max(siblings.indexOf(el),0),3)*65;
    const photo=el.matches('.company-lead>figure,.chapter-body>figure,.product-visual,.ceo-portrait');
@@ -39,7 +40,7 @@
  root.addEventListener('focusin',event=>{
   for(let el=event.target;el&&el!==root;el=el.parentElement){observer?.unobserve(el);finish(el);}
  });
- const reset=()=>{if(!allowed()){observer?.disconnect();running.forEach((a,el)=>finish(el));}};
+ const reset=()=>{if(!allowed()){observer?.disconnect();running.forEach((a,el)=>finish(el));}else{root.querySelectorAll(selector).forEach(el=>{if(!completed.has(el))seen.delete(el);});scan();}};
  reduce.addEventListener('change',reset);connection?.addEventListener?.('change',reset);
  let pending=false;
  new MutationObserver(()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;scan();});}).observe(root,{childList:true,subtree:true});
@@ -50,7 +51,11 @@
  const refreshDepth=()=>{
   photoNodes=Array.from(root.querySelectorAll(photoSelector));
   rules=Array.from(root.querySelectorAll('.inner-section-title,.chapter-top'));
-  photoNodes.forEach(img=>img.parentElement.classList.add('scroll-photo-frame'));
+  photoNodes.forEach(img=>{
+   if(img.parentElement.classList.contains('scroll-photo-frame'))return;
+   const frame=document.createElement('span');frame.className='scroll-photo-frame';
+   img.before(frame);frame.append(img);
+  });
  };
  function paintDepth(){
   scrollPending=false;

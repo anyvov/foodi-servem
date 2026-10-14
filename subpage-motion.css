@@ -22,7 +22,7 @@
 }
 
 /* Stronger editorial motion for image-led subpages. */
-.scroll-photo-frame{overflow:hidden}
+.scroll-photo-frame{display:block;overflow:hidden;min-width:0}
 .inner-section-title,.chapter-top{position:relative}
 .inner-section-title:after,.chapter-top:after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--red,#872e24);transform:scaleX(var(--chapter-line,1));transform-origin:left;pointer-events:none;opacity:.5}
 @media(min-width:901px){
