@@ -1,0 +1,21 @@
+'use strict';
+function renderInquiryBoard(tabs){
+ const entries=[{"number": 7, "category": "우육", "title": "LIG홈앤밀님 문의입니다.", "id": "42", "date": "2026-07-29", "status": "진행중"}, {"number": 6, "category": "돈육", "title": "박동규님 문의입니다.", "id": "41", "date": "2025-10-26", "status": "진행중"}, {"number": 5, "category": "선물세트", "title": "이효정님 문의입니다.", "id": "39", "date": "2025-01-09", "status": "답변완료"}, {"number": 4, "category": "양념육", "title": "정손한님 문의입니다.", "id": "34", "date": "2024-07-23", "status": "답변완료"}, {"number": 3, "category": "선물세트", "title": "김민정님 문의입니다.", "id": "25", "date": "2024-05-22", "status": "답변완료"}, {"number": 2, "category": "선물세트", "title": "홍길순님 문의입니다.", "id": "24", "date": "2024-05-22", "status": "답변완료"}, {"number": 1, "category": "우육", "title": "가나다님 문의입니다.", "id": "22", "date": "2024-05-22", "status": "답변완료"}];
+ const categories=['우육','돈육','양념육','선물세트','기타문의'];
+ const category=categories.includes(param.get('category'))?param.get('category'):'';
+ const writing=param.get('view')==='write';
+ document.title=(writing?'문의 글쓰기':'문의게시판')+' | FOODI · SERVEM';
+ const intro=hero('INQUIRY BOARD',writing?'문의 글쓰기':'문의게시판',writing?'문의 내용을 작성해 주세요.':'제품별 문의와 답변 진행상태를 확인하는 공간입니다.');
+ const notice='<div class="notice">온라인 문의 접수를 준비 중입니다. 현재 입력 내용은 전송·저장되지 않습니다.</div>';
+ const selected=entries.find(e=>e.id===param.get('id'));
+ if(selected){
+  root.innerHTML=hero('INQUIRY BOARD',selected.title,'문의게시판')+`<div class="content">${tabs('문의게시판')}<article class="article"><p class="badge">${esc(selected.category)}</p><p>${selected.date} · ${selected.status}</p><h2>비밀글입니다</h2><p>비밀글 열람 서비스는 준비 중입니다.</p><a class="solid" href="inquiry.html">목록으로</a></article></div>`;
+  return;
+ }
+ if(!writing){
+  root.innerHTML=intro+`<div class="content">${tabs('문의게시판')}<nav class="section-nav" aria-label="문의 분류">${['전체',...categories].map(c=>`<a href="inquiry.html${c==='전체'?'':'?category='+encodeURIComponent(c)}" ${c===(category||'전체')?'aria-current="page"':''}>${c}</a>`).join('')}</nav><div class="inquiry-table-wrap"><table class="inquiry-table"><caption>문의게시판 목록</caption><thead><tr><th scope="col">번호</th><th scope="col">제목</th><th scope="col">작성일</th><th scope="col">진행상태</th></tr></thead><tbody>${entries.filter(e=>!category||e.category===category).map(e=>`<tr><td>${e.number}</td><td style="text-align:left"><a href="inquiry.html?id=${e.id}"><span class="badge">${esc(e.category)}</span> ${esc(e.title)} <span aria-label="비밀글">🔒</span></a></td><td>${e.date}</td><td>${e.status}</td></tr>`).join('')||'<tr><td colspan="4">해당 분류에 공개된 문의가 없습니다.</td></tr>'}</tbody></table></div><div class="sub-actions"><a class="solid" href="inquiry.html?view=write${category?'&category='+encodeURIComponent(category):''}">문의 글쓰기 ↗</a></div></div>`;
+  return;
+ }
+ root.innerHTML=intro+`<div class="content">${tabs('문의게시판')}${notice}<form id="inquiry-write" class="contact-form inquiry-write"><label class="full">문의항목 *<select name="category" required><option value="">분류 선택</option>${categories.map(c=>`<option ${c===category?'selected':''}>${c}</option>`).join('')}</select></label><label>이름 *<input name="writer" required maxlength="60" placeholder="이름" autocomplete="off"></label><label>비밀번호 *<input type="password" name="password" required minlength="4" maxlength="100" autocomplete="new-password" placeholder="비밀번호"></label><label>이메일<input type="email" name="email" maxlength="150" placeholder="test@example.com"></label><label>연락처<input type="tel" name="phone" maxlength="30" placeholder="연락처"></label><label class="full">문의 내용 *<textarea name="content" required maxlength="3000" rows="9" placeholder="문의 내용을 입력하세요"></textarea></label><p class="full">온라인 문의 접수는 준비 중입니다.</p><label class="check full"><input type="checkbox" required><span>입력 내용이 전송·저장되지 않음을 확인합니다. <a href="privacy.html">개인정보 안내</a></span></label><div class="sub-actions full"><a class="text-link" href="inquiry.html">취소 · 목록으로</a><button class="solid" type="submit">입력 확인 · 전송 없음</button></div><p id="inquiry-result" class="full" role="status" tabindex="-1"></p></form></div>`;
+ document.querySelector('#inquiry-write').addEventListener('submit',event=>{event.preventDefault();const result=document.querySelector('#inquiry-result');result.textContent='입력 형식을 확인했습니다. 문의는 등록·전송되지 않았습니다.';result.focus();});
+}

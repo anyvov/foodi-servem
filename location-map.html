@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>푸드아이·써브엠 사업장 지도</title><style>
+html,body{margin:0;width:100%;height:100%;font-family:sans-serif;background:#eee9df}*{box-sizing:border-box}.root_daum_roughmap{width:100%!important;border:0!important}.root_daum_roughmap .wrap_map{height:calc(100vh - 32px)!important}.root_daum_roughmap .wrap_controllers{min-height:32px}.root_daum_roughmap .wrap_cont{display:none}#map-status{position:absolute;inset:0;display:grid;place-content:center;text-align:center;padding:24px;font-size:14px;line-height:1.8}#map-status[hidden]{display:none}a{color:#8d2839}
+</style></head><body>
+<div id="map-status" role="status">지도를 불러오고 있습니다.<br><a href="https://map.kakao.com/link/search/경기도%20하남시%20서하남로47번길%20237-11" target="_blank" rel="noopener">카카오맵에서 보기 ↗</a></div>
+<div id="daumRoughmapContainer1714358115182" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script>
+(function(){
+ const status=document.getElementById('map-status');
+ try{
+  if(!window.daum?.roughmap?.Lander)throw new Error('Map loader unavailable');
+  new daum.roughmap.Lander({timestamp:'1714358115182',key:'2j6so',mapWidth:String(window.innerWidth),mapHeight:String(Math.max(250,window.innerHeight-32))}).render();
+  const check=setInterval(()=>{if(document.querySelector('.wrap_map')){status.hidden=true;clearInterval(check)}},250);
+  setTimeout(()=>{clearInterval(check);if(!status.hidden)status.firstChild.textContent='지도를 불러오지 못했습니다. 아래 링크로 위치를 확인해 주세요.'},12000);
+ }catch(error){status.firstChild.textContent='지도를 불러오지 못했습니다. 아래 링크로 위치를 확인해 주세요.';}
+})();
+</script></body></html>

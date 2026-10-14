@@ -1,0 +1,2 @@
+'use strict';
+window.catalogView=function(data,category,query,page,size=12){const q=String(query||'').trim().toLocaleLowerCase('ko');const rows=data.filter(p=>(!category||p.category===category)&&(!q||(p.name+' '+p.category+' '+(p.search||'')).toLocaleLowerCase('ko').includes(q)));const total=rows.length,pages=Math.max(1,Math.ceil(total/size)),current=Math.max(1,Math.min(pages,Number.parseInt(page,10)||1));return{total,pages,current,items:rows.slice((current-1)*size,current*size)}};

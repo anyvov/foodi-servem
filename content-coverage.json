@@ -1,0 +1,2993 @@
+{
+  "basis": "2026-10-14: 106 public HTTP pages verified; 77 product pages; private inquiry bodies excluded",
+  "pages": [
+    {
+      "id": "P001",
+      "url": "http://foodi-servem.com/news",
+      "label": "공지사항 1 페이지",
+      "target": "news.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P002",
+      "url": "http://foodi-servem.com/news/1",
+      "label": "test > 공지사항",
+      "target": "post.html?id=P002",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P003",
+      "url": "http://foodi-servem.com/notice",
+      "label": "기업소식 1 페이지",
+      "target": "notice.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P004",
+      "url": "http://foodi-servem.com/notice/1",
+      "label": "테스트 > 기업소식",
+      "target": "post.html?id=P004",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P005",
+      "url": "http://foodi-servem.com/notice/2",
+      "label": "[하남]적십자봉사회 하남지구협회 '설 명절 음식 나눔' 봉사 > 기업소식",
+      "target": "post.html?id=P005",
+      "status": "내부 상세 요약 구현 / 외부 기사 전문 제외"
+    },
+    {
+      "id": "P006",
+      "url": "http://foodi-servem.com/notice/3",
+      "label": "대한적십자 봉사회 - 하남지구협회 봉사 활동 > 기업소식",
+      "target": "post.html?id=P006",
+      "status": "내부 상세 요약 구현 / 외부 기사 전문 제외"
+    },
+    {
+      "id": "P007",
+      "url": "http://foodi-servem.com/notice/4",
+      "label": "김상호 하남시장, 적십자사봉사회 하남지구협의회 유공자 표창 (써브엠 정상열대표) > 기업소식",
+      "target": "post.html?id=P007",
+      "status": "내부 상세 요약 구현 / 외부 기사 전문 제외"
+    },
+    {
+      "id": "P008",
+      "url": "http://foodi-servem.com/Inquiry/write",
+      "label": "문의 양식",
+      "target": "inquiry.html?view=write",
+      "status": "독립 작성 화면 구현 / 전송·저장 미연결"
+    },
+    {
+      "id": "P009",
+      "url": "http://foodi-servem.com/circulation",
+      "label": "식육유통사업",
+      "target": "business.html#P009",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P010",
+      "url": "http://foodi-servem.com/meatprocessing",
+      "label": "식육가공사업",
+      "target": "business.html#P010",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P011",
+      "url": "http://foodi-servem.com/seasoning",
+      "label": "양념가공사업",
+      "target": "business.html#P011",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P012",
+      "url": "http://foodi-servem.com/shoppingmall",
+      "label": "쇼핑몰사업",
+      "target": "business.html#P012",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P013",
+      "url": "http://foodi-servem.com/pork",
+      "label": "돈육 1 페이지",
+      "target": "products.html?category=돈육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P014",
+      "url": "http://foodi-servem.com/pork/10?page=2",
+      "label": "뼈삼겹 (page=2)",
+      "target": "detail.html?id=P014",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P015",
+      "url": "http://foodi-servem.com/pork/15",
+      "label": "한돈포갈비",
+      "target": "detail.html?id=P015",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P016",
+      "url": "http://foodi-servem.com/pork/16",
+      "label": "삽겹",
+      "target": "detail.html?id=P016",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P017",
+      "url": "http://foodi-servem.com/pork/17",
+      "label": "미삽겹",
+      "target": "detail.html?id=P017",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P018",
+      "url": "http://foodi-servem.com/pork/18",
+      "label": "등갈비",
+      "target": "detail.html?id=P018",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P019",
+      "url": "http://foodi-servem.com/pork/20",
+      "label": "항정",
+      "target": "detail.html?id=P019",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P020",
+      "url": "http://foodi-servem.com/pork/21",
+      "label": "가브리",
+      "target": "detail.html?id=P020",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P021",
+      "url": "http://foodi-servem.com/pork/22",
+      "label": "등심",
+      "target": "detail.html?id=P021",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P022",
+      "url": "http://foodi-servem.com/pork/23",
+      "label": "갈매기살",
+      "target": "detail.html?id=P022",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P023",
+      "url": "http://foodi-servem.com/pork/24",
+      "label": "미추리삼겹",
+      "target": "detail.html?id=P023",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P024",
+      "url": "http://foodi-servem.com/pork/25",
+      "label": "전지",
+      "target": "detail.html?id=P024",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P025",
+      "url": "http://foodi-servem.com/pork/26",
+      "label": "등뼈",
+      "target": "detail.html?id=P025",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P026",
+      "url": "http://foodi-servem.com/pork/27?page=2",
+      "label": "목뼈 (page=2)",
+      "target": "detail.html?id=P026",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P027",
+      "url": "http://foodi-servem.com/pork/28",
+      "label": "목살",
+      "target": "detail.html?id=P027",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P028",
+      "url": "http://foodi-servem.com/pork/8?page=2",
+      "label": "후지 (page=2)",
+      "target": "detail.html?id=P028",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P029",
+      "url": "http://foodi-servem.com/pork?page=2",
+      "label": "돈육 2 페이지 (page=2)",
+      "target": "products.html?category=돈육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P031",
+      "url": "http://foodi-servem.com/giftset",
+      "label": "선물세트 1 페이지",
+      "target": "products.html?category=선물세트",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P032",
+      "url": "http://foodi-servem.com/giftset/1",
+      "label": "LA갈비-구이용 (99)",
+      "target": "detail.html?id=P032",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P033",
+      "url": "http://foodi-servem.com/giftset/12",
+      "label": "돼지로스세트 (85) (판매중단)",
+      "target": "detail.html?id=P033",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P034",
+      "url": "http://foodi-servem.com/giftset/13",
+      "label": "소 양념왕갈비 (75)",
+      "target": "detail.html?id=P034",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P035",
+      "url": "http://foodi-servem.com/giftset/14",
+      "label": "수입돼지 양념왕갈비 (68)",
+      "target": "detail.html?id=P035",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P036",
+      "url": "http://foodi-servem.com/giftset/15",
+      "label": "한우-선물세트 (89)",
+      "target": "detail.html?id=P036",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P037",
+      "url": "http://foodi-servem.com/giftset/3",
+      "label": "소 생왕갈비 (79)",
+      "target": "detail.html?id=P037",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P038",
+      "url": "http://foodi-servem.com/giftset/4",
+      "label": "한돈 양념왕갈비 (70)",
+      "target": "detail.html?id=P038",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P039",
+      "url": "http://foodi-servem.com/giftset/5",
+      "label": "한우꼬리 (80)",
+      "target": "detail.html?id=P039",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P040",
+      "url": "http://foodi-servem.com/giftset/6",
+      "label": "LA갈비-찜용 (95)",
+      "target": "detail.html?id=P040",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P041",
+      "url": "http://foodi-servem.com/giftset/7",
+      "label": "한우-찜갈비 (87)",
+      "target": "detail.html?id=P041",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P042",
+      "url": "http://foodi-servem.com/giftset/8",
+      "label": "LA양념갈비 (94)",
+      "target": "detail.html?id=P042",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P043",
+      "url": "http://foodi-servem.com/giftset/9",
+      "label": "한우-구이세트 (90)",
+      "target": "detail.html?id=P043",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P044",
+      "url": "http://foodi-servem.com/seasonedmeat",
+      "label": "양념육 1 페이지",
+      "target": "products.html?category=양념육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P045",
+      "url": "http://foodi-servem.com/seasonedmeat/2",
+      "label": "돼지양념갈비",
+      "target": "detail.html?id=P045",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P046",
+      "url": "http://foodi-servem.com/seasonedmeat/3",
+      "label": "소양념갈비",
+      "target": "detail.html?id=P046",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P047",
+      "url": "http://foodi-servem.com/seasonedmeat/4",
+      "label": "소-양념갈비",
+      "target": "detail.html?id=P047",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P048",
+      "url": "http://foodi-servem.com/seasonedmeat/5",
+      "label": "소-양념갈비",
+      "target": "detail.html?id=P048",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P049",
+      "url": "http://foodi-servem.com/beef",
+      "label": "우육 1 페이지",
+      "target": "products.html?category=우육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P050",
+      "url": "http://foodi-servem.com/beef/101",
+      "label": "등심",
+      "target": "detail.html?id=P050",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P051",
+      "url": "http://foodi-servem.com/beef/102",
+      "label": "안심",
+      "target": "detail.html?id=P051",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P052",
+      "url": "http://foodi-servem.com/beef/103",
+      "label": "채끝",
+      "target": "detail.html?id=P052",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P053",
+      "url": "http://foodi-servem.com/beef/104",
+      "label": "갈비",
+      "target": "detail.html?id=P053",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P054",
+      "url": "http://foodi-servem.com/beef/105",
+      "label": "갈비살",
+      "target": "detail.html?id=P054",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P055",
+      "url": "http://foodi-servem.com/beef/106",
+      "label": "치마살",
+      "target": "detail.html?id=P055",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P056",
+      "url": "http://foodi-servem.com/beef/107",
+      "label": "토시살",
+      "target": "detail.html?id=P056",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P057",
+      "url": "http://foodi-servem.com/beef/108",
+      "label": "제비추리",
+      "target": "detail.html?id=P057",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P058",
+      "url": "http://foodi-servem.com/beef/109",
+      "label": "업진살",
+      "target": "detail.html?id=P058",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P059",
+      "url": "http://foodi-servem.com/beef/110",
+      "label": "차돌박이",
+      "target": "detail.html?id=P059",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P060",
+      "url": "http://foodi-servem.com/beef/111?page=2",
+      "label": "부채살 (page=2)",
+      "target": "detail.html?id=P060",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P061",
+      "url": "http://foodi-servem.com/beef/112?page=2",
+      "label": "홍두깨 (page=2)",
+      "target": "detail.html?id=P061",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P062",
+      "url": "http://foodi-servem.com/beef/113?page=2",
+      "label": "우둔 (page=2)",
+      "target": "detail.html?id=P062",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P063",
+      "url": "http://foodi-servem.com/beef/114?page=2",
+      "label": "양지 (page=2)",
+      "target": "detail.html?id=P063",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P064",
+      "url": "http://foodi-servem.com/beef/115?page=2",
+      "label": "사태 (page=2)",
+      "target": "detail.html?id=P064",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P065",
+      "url": "http://foodi-servem.com/beef/116?page=2",
+      "label": "목심 (page=2)",
+      "target": "detail.html?id=P065",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P066",
+      "url": "http://foodi-servem.com/beef/117?page=2",
+      "label": "전각 (page=2)",
+      "target": "detail.html?id=P066",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P067",
+      "url": "http://foodi-servem.com/beef/118?page=2",
+      "label": "설도 (page=2)",
+      "target": "detail.html?id=P067",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P068",
+      "url": "http://foodi-servem.com/beef/119?page=2",
+      "label": "스지 (page=2)",
+      "target": "detail.html?id=P068",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P069",
+      "url": "http://foodi-servem.com/beef/120?page=2",
+      "label": "설깃 (page=2)",
+      "target": "detail.html?id=P069",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P070",
+      "url": "http://foodi-servem.com/beef/121?page=2",
+      "label": "잡육 (page=2)",
+      "target": "detail.html?id=P070",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P071",
+      "url": "http://foodi-servem.com/beef/122?page=2",
+      "label": "꼬리 (page=2)",
+      "target": "detail.html?id=P071",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P072",
+      "url": "http://foodi-servem.com/beef/123?page=3",
+      "label": "사골 (page=3)",
+      "target": "detail.html?id=P072",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P073",
+      "url": "http://foodi-servem.com/beef/124?page=3",
+      "label": "잡뼈 (page=3)",
+      "target": "detail.html?id=P073",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P074",
+      "url": "http://foodi-servem.com/beef/125?page=3",
+      "label": "수입 갈비 (page=3)",
+      "target": "detail.html?id=P074",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P075",
+      "url": "http://foodi-servem.com/beef/126?page=3",
+      "label": "수입 척갈비 (page=3)",
+      "target": "detail.html?id=P075",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P076",
+      "url": "http://foodi-servem.com/beef/127?page=3",
+      "label": "수입 빽립 (page=3)",
+      "target": "detail.html?id=P076",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P077",
+      "url": "http://foodi-servem.com/beef/128?page=3",
+      "label": "수입 센터컷 (page=3)",
+      "target": "detail.html?id=P077",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P078",
+      "url": "http://foodi-servem.com/beef/129?page=3",
+      "label": "수입 립엔드 (page=3)",
+      "target": "detail.html?id=P078",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P079",
+      "url": "http://foodi-servem.com/beef/130?page=3",
+      "label": "수입 늑간 (page=3)",
+      "target": "detail.html?id=P079",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P080",
+      "url": "http://foodi-servem.com/beef/131?page=3",
+      "label": "수입 황제늑간 (page=3)",
+      "target": "detail.html?id=P080",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P081",
+      "url": "http://foodi-servem.com/beef/132?page=3",
+      "label": "수입 진갈비 (page=3)",
+      "target": "detail.html?id=P081",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P082",
+      "url": "http://foodi-servem.com/beef/133?page=3",
+      "label": "수입 갈비본살 (page=3)",
+      "target": "detail.html?id=P082",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P083",
+      "url": "http://foodi-servem.com/beef/134?page=3",
+      "label": "수입 살치살 (page=3)",
+      "target": "detail.html?id=P083",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P084",
+      "url": "http://foodi-servem.com/beef/135?page=4",
+      "label": "수입 삼겹양지 (page=4)",
+      "target": "detail.html?id=P084",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P085",
+      "url": "http://foodi-servem.com/beef/136?page=4",
+      "label": "수입 차돌박이 (page=4)",
+      "target": "detail.html?id=P085",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P086",
+      "url": "http://foodi-servem.com/beef/137?page=4",
+      "label": "수입 알목심 (page=4)",
+      "target": "detail.html?id=P086",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P087",
+      "url": "http://foodi-servem.com/beef/138?page=4",
+      "label": "수입 양지 (page=4)",
+      "target": "detail.html?id=P087",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P088",
+      "url": "http://foodi-servem.com/beef/139?page=4",
+      "label": "수입 전각 (page=4)",
+      "target": "detail.html?id=P088",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P089",
+      "url": "http://foodi-servem.com/beef/140?page=4",
+      "label": "수입 사태 (page=4)",
+      "target": "detail.html?id=P089",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P090",
+      "url": "http://foodi-servem.com/beef/141?page=4",
+      "label": "수입 홍두께 (page=4)",
+      "target": "detail.html?id=P090",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P091",
+      "url": "http://foodi-servem.com/beef/142?page=4",
+      "label": "수입 학본 (page=4)",
+      "target": "detail.html?id=P091",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P092",
+      "url": "http://foodi-servem.com/beef/143?page=4",
+      "label": "수입 도가니 (page=4)",
+      "target": "detail.html?id=P092",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P093",
+      "url": "http://foodi-servem.com/beef/144?page=4",
+      "label": "수입 스지 (page=4)",
+      "target": "detail.html?id=P093",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P094",
+      "url": "http://foodi-servem.com/beef/149",
+      "label": "이동갈비",
+      "target": "detail.html?id=P094",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P095",
+      "url": "http://foodi-servem.com/beef/158",
+      "label": "우갈비",
+      "target": "detail.html?id=P095",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P096",
+      "url": "http://foodi-servem.com/beef?page=2",
+      "label": "우육 2 페이지 (page=2)",
+      "target": "products.html?category=우육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P098",
+      "url": "http://foodi-servem.com/beef?page=3",
+      "label": "우육 3 페이지 (page=3)",
+      "target": "products.html?category=우육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P100",
+      "url": "http://foodi-servem.com/beef?page=4",
+      "label": "우육 4 페이지 (page=4)",
+      "target": "products.html?category=우육",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P102",
+      "url": "http://foodi-servem.com/",
+      "label": "홈",
+      "target": "index.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P103",
+      "url": "http://foodi-servem.com/certification",
+      "label": "연혁 및 인증",
+      "target": "company.html#history",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P104",
+      "url": "http://foodi-servem.com/facilitys",
+      "label": "시설 및 생산설비",
+      "target": "production.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P105",
+      "url": "http://foodi-servem.com/facilitys/1?sca=%EC%8B%9C%EC%84%A4%ED%98%84%ED%99%A9",
+      "label": "시설 및 생산설비 · 시설현황",
+      "target": "production.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P106",
+      "url": "http://foodi-servem.com/facilitys?sca=%EC%83%9D%EC%82%B0%EC%84%A4%EB%B9%84",
+      "label": "시설 및 생산설비 · 생산설비",
+      "target": "production.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P107",
+      "url": "http://foodi-servem.com/facilitys?sca=%EC%8B%9C%EC%84%A4%ED%98%84%ED%99%A9",
+      "label": "시설 및 생산설비 · 시설현황",
+      "target": "production.html",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P108",
+      "url": "http://foodi-servem.com/greetings",
+      "label": "인사말",
+      "target": "company.html#greetings",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P109",
+      "url": "http://foodi-servem.com/introduce/location",
+      "label": "사업장 위치",
+      "target": "company.html#location",
+      "status": "정리·연결"
+    },
+    {
+      "id": "P110",
+      "url": "http://foodi-servem.com/partners",
+      "label": "주요 거래처",
+      "target": "partners.html",
+      "status": "정리·연결"
+    }
+  ],
+  "assets": [
+    {
+      "id": "I001",
+      "url": "http://foodi-servem.com/img/common/logo.png",
+      "local": "assets/source/I001.png",
+      "sha256": "1a12bd67a921e6aa37d1f0bb131273789a7f9fe3fb61eac34a406d910db84dab",
+      "group": "brand"
+    },
+    {
+      "id": "I002",
+      "url": "http://foodi-servem.com/img/common/meta_logo.jpg",
+      "local": "assets/source/I002.jpg",
+      "sha256": "23bae4669cc8bc23e249ef3f4744c7f11fcf707912a2047d1fbfa4076a480aba",
+      "group": "brand"
+    },
+    {
+      "id": "I003",
+      "url": "http://foodi-servem.com/img/business/circulation_bg_icon.png",
+      "local": "assets/source/I003.png",
+      "sha256": "cc66b1f014e335f438b676b335b6e3649631269893412e44a738accf11b9ac5e",
+      "group": "business"
+    },
+    {
+      "id": "I004",
+      "url": "http://foodi-servem.com/img/business/circulation_bg_img.jpg",
+      "local": "assets/source/I004.jpg",
+      "sha256": "50edc4856f4c93a1fcfc9e7c4c2006c8bb05e34831ae300c3e7b29e0cb4beda2",
+      "group": "business"
+    },
+    {
+      "id": "I005",
+      "url": "http://foodi-servem.com/img/business/meatprocessing_bg_icon.png",
+      "local": "assets/source/I005.png",
+      "sha256": "f9ef45a885d8776bcbce66f12cd0e9af32da4b5cc2e511f691d30e001cce9f6d",
+      "group": "business"
+    },
+    {
+      "id": "I006",
+      "url": "http://foodi-servem.com/img/business/meatprocessing_bg_img.jpg",
+      "local": "assets/source/I006.jpg",
+      "sha256": "4d2547efaa9f1ba0e1932602efef08976ff4efc4094faaa39051094ca161f56b",
+      "group": "business"
+    },
+    {
+      "id": "I007",
+      "url": "http://foodi-servem.com/img/business/seasoning_bg_icon.png",
+      "local": "assets/source/I007.png",
+      "sha256": "0da0bdc5b381112d4beb24ee19aaeab5e6289089b56996b85c6bad94aae523a7",
+      "group": "business"
+    },
+    {
+      "id": "I008",
+      "url": "http://foodi-servem.com/img/business/seasoning_bg_img.jpg",
+      "local": "assets/source/I008.jpg",
+      "sha256": "c0faa424ae12474e2a37a25dbf0415db8f5502086c3e40293ab5865e9d9ab159",
+      "group": "business"
+    },
+    {
+      "id": "I009",
+      "url": "http://foodi-servem.com/img/business/shoppingmall_bg_icon.png",
+      "local": "assets/source/I009.png",
+      "sha256": "1036509ea5ad5d6e20d7171dba8f55f7a914c43c771e5fa950222f5249c697b0",
+      "group": "business"
+    },
+    {
+      "id": "I010",
+      "url": "http://foodi-servem.com/img/business/shoppingmall_bg_img.jpg",
+      "local": "assets/source/I010.jpg",
+      "sha256": "249e1a539c281f0928a5632bb75da20057ffff9add3802ffcb10ca88ebf01c22",
+      "group": "business"
+    },
+    {
+      "id": "I011",
+      "url": "http://foodi-servem.com/img/introduce/certification_01.jpg",
+      "local": "assets/source/I011.jpg",
+      "sha256": "5b5d69ec7e4c96a0a0b7a36e1c7ab51836bbb309b05b1518295902b9cbe2269a",
+      "group": "certificates"
+    },
+    {
+      "id": "I012",
+      "url": "http://foodi-servem.com/img/introduce/certification_02.jpg",
+      "local": "assets/source/I012.jpg",
+      "sha256": "30a197c43f4f5f2e56fadae50d761fc3422a3e3399452283f19a0bdde48bc10f",
+      "group": "certificates"
+    },
+    {
+      "id": "I013",
+      "url": "http://foodi-servem.com/img/introduce/certification_03.jpg",
+      "local": "assets/source/I013.jpg",
+      "sha256": "79d59a1ba6b5f136108d760c7b4a2be678ea92116c3960d269097e69f75866f7",
+      "group": "certificates"
+    },
+    {
+      "id": "I014",
+      "url": "http://foodi-servem.com/img/introduce/certification_04.jpg",
+      "local": "assets/source/I014.jpg",
+      "sha256": "1a09af6903a7c741d544666112bc62ac8e320f2d35bc592a14ac913d397da8b3",
+      "group": "certificates"
+    },
+    {
+      "id": "I015",
+      "url": "http://foodi-servem.com/img/introduce/certification_05.jpg",
+      "local": "assets/source/I015.jpg",
+      "sha256": "c417c97fc2f778d9e98bfd6203b0fb637e1999d60903bfb1b830599ca598d49a",
+      "group": "certificates"
+    },
+    {
+      "id": "I016",
+      "url": "http://foodi-servem.com/img/introduce/certification_06.jpg",
+      "local": "assets/source/I016.jpg",
+      "sha256": "7bbcb07c581d2856fd07366f5e1d700f8106a40e84e27929a7a9e051843124a3",
+      "group": "certificates"
+    },
+    {
+      "id": "I017",
+      "url": "http://foodi-servem.com/img/introduce/certification_07.jpg",
+      "local": "assets/source/I017.jpg",
+      "sha256": "990e888c0ad0704648ee1fa833012670fb7eb80b376043232a7e4e89bfcefd30",
+      "group": "certificates"
+    },
+    {
+      "id": "I018",
+      "url": "http://foodi-servem.com/img/introduce/certification_08.jpg",
+      "local": "assets/source/I018.jpg",
+      "sha256": "4c8e8eaf8effff7dcb7d6af1525813f57870e2e0ac480e73b4bf57d3cd6c9a36",
+      "group": "certificates"
+    },
+    {
+      "id": "I019",
+      "url": "http://foodi-servem.com/img/introduce/certification_09.jpg",
+      "local": "assets/source/I019.jpg",
+      "sha256": "6d8f5fe5913b9eb02db7be4c6947dd4188378d5744d4a5a38c9f2c0d394b30ff",
+      "group": "certificates"
+    },
+    {
+      "id": "I020",
+      "url": "http://foodi-servem.com/img/introduce/certification_10.jpg",
+      "local": "assets/source/I020.jpg",
+      "sha256": "a6785cb39c399817a7939be777bdd8786b0bcec9fcbeb4b99c46dba43b0a5a0d",
+      "group": "certificates"
+    },
+    {
+      "id": "I021",
+      "url": "http://foodi-servem.com/img/introduce/certification_btn.png",
+      "local": "assets/source/I021.png",
+      "sha256": "5495821ea0402044caee38c55edecd33986e376c0db9442938afbc9cdef14868",
+      "group": "certificates"
+    },
+    {
+      "id": "I022",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_01.jpg",
+      "local": "assets/source/I022.jpg",
+      "sha256": "1ab463651fc3eadf18f2e4e63f2d43b406d8b30eaca6805bd2ce599bb2cdd94c",
+      "group": "certificates"
+    },
+    {
+      "id": "I023",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_02.jpg",
+      "local": "assets/source/I023.jpg",
+      "sha256": "17449101b0d18221c4d047aed5d8e8835e79f3f343b348dec3411bfc9ceb51a7",
+      "group": "certificates"
+    },
+    {
+      "id": "I024",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_03.jpg",
+      "local": "assets/source/I024.jpg",
+      "sha256": "1fdc33ccece8d60531210397203d2b95ae31514e9536577fe2deb86fe193776e",
+      "group": "certificates"
+    },
+    {
+      "id": "I025",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_04.jpg",
+      "local": "assets/source/I025.jpg",
+      "sha256": "c97e0222caf89218b769a3d2a7a89485286c0290b56fe1d2a4eb6d1ca484c1c5",
+      "group": "certificates"
+    },
+    {
+      "id": "I026",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_05.jpg",
+      "local": "assets/source/I026.jpg",
+      "sha256": "63954c8359d60d73a6e9d97f7d623422a4ab867b6fc6702a16b17a82e8e37d69",
+      "group": "certificates"
+    },
+    {
+      "id": "I027",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_06.jpg",
+      "local": "assets/source/I027.jpg",
+      "sha256": "c51c1bcd61d569d33245f85684366d9b379441937afa9ef36492af814e403151",
+      "group": "certificates"
+    },
+    {
+      "id": "I028",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_07.jpg",
+      "local": "assets/source/I028.jpg",
+      "sha256": "989230fff22e50785d8d1323711228dbe87d7c3bf9eeedf65a6eb41339fdb243",
+      "group": "certificates"
+    },
+    {
+      "id": "I029",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_08.jpg",
+      "local": "assets/source/I029.jpg",
+      "sha256": "962a1001b679705a96655a50416442cb3a5978312604f8ce4b4976d23d6f4b5a",
+      "group": "certificates"
+    },
+    {
+      "id": "I030",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_09.jpg",
+      "local": "assets/source/I030.jpg",
+      "sha256": "40520552be99906f42fea207901c0f31f944c7227b51322e6dd64463bee0a96a",
+      "group": "certificates"
+    },
+    {
+      "id": "I031",
+      "url": "http://foodi-servem.com/img/introduce/certification_detail_10.jpg",
+      "local": "assets/source/I031.jpg",
+      "sha256": "d907295d96e4b2c23bfe92689d4d6fe035373f26bf40476bba77e2bcf4a7789e",
+      "group": "certificates"
+    },
+    {
+      "id": "I032",
+      "url": "http://foodi-servem.com/img/common/all_menu_close.png",
+      "local": "assets/source/I032.png",
+      "sha256": "51b2840b747a59113bb9599aac61f2e57672e34a891427190cec84ec21521892",
+      "group": "common_ui"
+    },
+    {
+      "id": "I033",
+      "url": "http://foodi-servem.com/img/common/btn_top.png",
+      "local": "assets/source/I033.png",
+      "sha256": "6acff1a8810f77c8cc29c77327c8ae9c9249fe871892f7b80c87264a265df364",
+      "group": "common_ui"
+    },
+    {
+      "id": "I034",
+      "url": "http://foodi-servem.com/img/common/btn_view_answer.png",
+      "local": "assets/source/I034.png",
+      "sha256": "f79e8359182b9f003c890b48c18d0d13523f5b148c2b2bc9ffe1276fe79b47c2",
+      "group": "common_ui"
+    },
+    {
+      "id": "I035",
+      "url": "http://foodi-servem.com/img/common/btn_view_delete.png",
+      "local": "assets/source/I035.png",
+      "sha256": "cb361257e9bf96105a9447c394b2691e15bf520595758513c723e5202888d2e1",
+      "group": "common_ui"
+    },
+    {
+      "id": "I036",
+      "url": "http://foodi-servem.com/img/common/btn_view_list.png",
+      "local": "assets/source/I036.png",
+      "sha256": "e145bb6e535eb339793269c60a8ff2165bdd4aa00a741b8c549b521da4f29c17",
+      "group": "common_ui"
+    },
+    {
+      "id": "I037",
+      "url": "http://foodi-servem.com/img/common/btn_view_modify.png",
+      "local": "assets/source/I037.png",
+      "sha256": "60d5f11f4bdb022bfa4cf5054566a106d8c17101ed16894637569ca3481b6a22",
+      "group": "common_ui"
+    },
+    {
+      "id": "I038",
+      "url": "http://foodi-servem.com/img/common/btn_write.png",
+      "local": "assets/source/I038.png",
+      "sha256": "097ef6d18dd905051b452bef37c8147e610d3d0b573f3f6b3d736638aa16a937",
+      "group": "common_ui"
+    },
+    {
+      "id": "I039",
+      "url": "http://foodi-servem.com/img/common/closeBtn.png",
+      "local": "assets/source/I039.png",
+      "sha256": "8cb7f67b78c883b420bea90c0ffc128ddc01316525d6afb96495ad2876a88228",
+      "group": "common_ui"
+    },
+    {
+      "id": "I040",
+      "url": "http://foodi-servem.com/img/common/product_arrow_next.png",
+      "local": "assets/source/I040.png",
+      "sha256": "e5677c7dfa739e1e72a0175084725beacbb34f1ee68f10e8a820a866ca645819",
+      "group": "common_ui"
+    },
+    {
+      "id": "I041",
+      "url": "http://foodi-servem.com/img/common/product_arrow_prev.png",
+      "local": "assets/source/I041.png",
+      "sha256": "84cab66677817e1bd10f9bb22a2420c3698581d5685eae921136a551727c54dc",
+      "group": "common_ui"
+    },
+    {
+      "id": "I042",
+      "url": "http://foodi-servem.com/img/common/quick_customer.png",
+      "local": "assets/source/I042.png",
+      "sha256": "5053e9e77633ee750e9c3617917b6a41b0ea3c7aeea30ed2018c523df2d8bb30",
+      "group": "common_ui"
+    },
+    {
+      "id": "I043",
+      "url": "http://foodi-servem.com/img/common/select_bg.png",
+      "local": "assets/source/I043.png",
+      "sha256": "606624c6ce40ba9a9703760b2b193c0b325bb1ebf9d61446d5f7731901b429af",
+      "group": "common_ui"
+    },
+    {
+      "id": "I044",
+      "url": "http://foodi-servem.com/img/sub_common/sub_visual_business.jpg",
+      "local": "assets/source/I044.jpg",
+      "sha256": "f0f060cf420db2f4aa148b8220c70635e495c6fae2bd15bb663d4587edbff0c0",
+      "group": "common_ui"
+    },
+    {
+      "id": "I045",
+      "url": "http://foodi-servem.com/img/sub_common/sub_visual_customer.jpg",
+      "local": "assets/source/I045.jpg",
+      "sha256": "8f5a6f677c88871686671e837da0f50d3887dfa7a017d447e191d5540852be09",
+      "group": "common_ui"
+    },
+    {
+      "id": "I046",
+      "url": "http://foodi-servem.com/img/sub_common/sub_visual_introduce.jpg",
+      "local": "assets/source/I046.jpg",
+      "sha256": "4bf4f43bda0316bf0e622aaf908f8ed57ec1c237c4b6dcc0da239de24a24b9eb",
+      "group": "common_ui"
+    },
+    {
+      "id": "I047",
+      "url": "http://foodi-servem.com/img/sub_common/sub_visual_product.jpg",
+      "local": "assets/source/I047.jpg",
+      "sha256": "d2eaea3dacc1250ff50e68ebf982985f55621f95cb83901aa865e09518817db0",
+      "group": "common_ui"
+    },
+    {
+      "id": "I048",
+      "url": "http://foodi-servem.com/theme/basic/img/btn_end.gif",
+      "local": "assets/source/I048.gif",
+      "sha256": "095f56b84c5b039b9fbae750a93bc4d6aa48470a679222f3d0f7936f33c6cc69",
+      "group": "common_ui"
+    },
+    {
+      "id": "I049",
+      "url": "http://foodi-servem.com/theme/basic/img/btn_first.gif",
+      "local": "assets/source/I049.gif",
+      "sha256": "c2ecfc94fde0e319c5535749c07b641e5691d293fde6e75295c7644962b93fa2",
+      "group": "common_ui"
+    },
+    {
+      "id": "I050",
+      "url": "http://foodi-servem.com/theme/basic/img/btn_next.gif",
+      "local": "assets/source/I050.gif",
+      "sha256": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "group": "common_ui"
+    },
+    {
+      "id": "I051",
+      "url": "http://foodi-servem.com/theme/basic/img/btn_prev.gif",
+      "local": "assets/source/I051.gif",
+      "sha256": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "group": "common_ui"
+    },
+    {
+      "id": "I052",
+      "url": "http://foodi-servem.com/theme/basic/img/require.png",
+      "local": "assets/source/I052.png",
+      "sha256": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "group": "common_ui"
+    },
+    {
+      "id": "I053",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/basic/img/btn_cmt.png",
+      "local": "assets/source/I053.png",
+      "sha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "group": "common_ui"
+    },
+    {
+      "id": "I054",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/basic/img/chk.png",
+      "local": "assets/source/I054.png",
+      "sha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "group": "common_ui"
+    },
+    {
+      "id": "I055",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/basic/img/close_btn.png",
+      "local": "assets/source/I055.png",
+      "sha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "group": "common_ui"
+    },
+    {
+      "id": "I056",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/online/img/btn_cmt.png",
+      "local": "assets/source/I056.png",
+      "sha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "group": "common_ui"
+    },
+    {
+      "id": "I057",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/online/img/chk.png",
+      "local": "assets/source/I057.png",
+      "sha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "group": "common_ui"
+    },
+    {
+      "id": "I058",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/online/img/close_btn.png",
+      "local": "assets/source/I058.png",
+      "sha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "group": "common_ui"
+    },
+    {
+      "id": "I059",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/products/img/btn_cmt.png",
+      "local": "assets/source/I059.png",
+      "sha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "group": "common_ui"
+    },
+    {
+      "id": "I060",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/products/img/chk.png",
+      "local": "assets/source/I060.png",
+      "sha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "group": "common_ui"
+    },
+    {
+      "id": "I061",
+      "url": "http://foodi-servem.com/theme/basic/skin/board/products/img/close_btn.png",
+      "local": "assets/source/I061.png",
+      "sha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "group": "common_ui"
+    },
+    {
+      "id": "I062",
+      "url": "http://foodi-servem.com/img/introduce/facilitys_list_01.jpg",
+      "local": "assets/source/I062.jpg",
+      "sha256": "2852c2f04aaba3d9440bfa49c0807c613c99725c7c7ecd94ea06f79820e135e2",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I063",
+      "url": "http://foodi-servem.com/img/introduce/facilitys_list_02.jpg",
+      "local": "assets/source/I063.jpg",
+      "sha256": "fa9e3ee3b03af6410852bce5130c222e9b891b3c43d2980b6b0c2902cf782d18",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I064",
+      "url": "http://foodi-servem.com/img/introduce/facilitys_list_03.jpg",
+      "local": "assets/source/I064.jpg",
+      "sha256": "1757cc5084112f84223ef6812adb0e7aefd7b320fd936331f9bcff77cc114cd3",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I065",
+      "url": "http://foodi-servem.com/img/introduce/greetings_ceo_img.png",
+      "local": "assets/source/I065.png",
+      "sha256": "040a0f871d35b1b4601f9ba0fbfcbe589acf39c1ee17675475e544a47f806bd8",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I066",
+      "url": "http://foodi-servem.com/img/introduce/greetings_top_img.jpg",
+      "local": "assets/source/I066.jpg",
+      "sha256": "bce3d81f1c910e1660a1e9d4f5f4c59c3d0897810aba97fae200056dd3041dc7",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I067",
+      "url": "http://foodi-servem.com/img/introduce/history_img.jpg",
+      "local": "assets/source/I067.jpg",
+      "sha256": "faca29dbe5186c052a16d2d1dff5152757f5c468c69d34878ecd3c85e37ff93f",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I068",
+      "url": "http://foodi-servem.com/img/introduce/location_address.png",
+      "local": "assets/source/I068.png",
+      "sha256": "c8b40903de8a42cd7b81fbbd32d7ebd0f60e4503c3d7218143d2e15570014044",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I069",
+      "url": "http://foodi-servem.com/img/introduce/location_tel.png",
+      "local": "assets/source/I069.png",
+      "sha256": "58e1eea8f4e1dc6f9c116b135e7671d4ee0da4a160e9001222778c1513da8846",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I070",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_02.jpg",
+      "local": "assets/source/I070.jpg",
+      "sha256": "75be5cf76491caa7bbaaa4fec2115be5f6090f2c389638ea3d002a2c3df67978",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I071",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_03.jpg",
+      "local": "assets/source/I071.jpg",
+      "sha256": "f0e635a212c66a8404cae88eb1aa589b42d3ef5cba3e66247d212ebcdee7eeac",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I072",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_04.jpg",
+      "local": "assets/source/I072.jpg",
+      "sha256": "0a8e05d4603594e057ccdbc2e055effff42d8383b5e277983d79cb962ede6df1",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I073",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_06.jpg",
+      "local": "assets/source/I073.jpg",
+      "sha256": "1da8a847da004411fb70f237722f1b13f02ceffbce7c8a7328c4123c884d9d7c",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I074",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_07.jpg",
+      "local": "assets/source/I074.jpg",
+      "sha256": "055e4cc5d6f3e212fb36b1155eff41bfb86157684936f91080cdce909dce5254",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I075",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_08.jpg",
+      "local": "assets/source/I075.jpg",
+      "sha256": "07850fe959c863dbe60fb74a5178c9ec7f5d1513944af1f758634bdb0879cd3f",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I076",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_09.jpg",
+      "local": "assets/source/I076.jpg",
+      "sha256": "f3df966efecbb4bc4339c72e341ad6069c3ce9b809390ec0c9ad9b0d2f7c4327",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I077",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_10.jpg",
+      "local": "assets/source/I077.jpg",
+      "sha256": "2da35d252f44f3a6e82324428e6863a8323fd7dfff175ec356fee0a34afd088d",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I078",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_11.jpg",
+      "local": "assets/source/I078.jpg",
+      "sha256": "1dda903fda3d2795ae2f4a55705b74dd73efc920ff90ea65a725d9fc441aa3d5",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I079",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_12.jpg",
+      "local": "assets/source/I079.jpg",
+      "sha256": "dd91264c7da05c5ec20c982132c0aa5f25cd434f1978832afd6d057e99cc045b",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I080",
+      "url": "http://foodi-servem.com/img/introduce/partners_img_13.jpg",
+      "local": "assets/source/I080.jpg",
+      "sha256": "4e15a6e5d02f82b94b460ae7c42ae2ddf369f4824c4de6342dc3f5243f6cf475",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I081",
+      "url": "http://foodi-servem.com/img/introduce/production_list_01.jpg",
+      "local": "assets/source/I081.jpg",
+      "sha256": "da7f19752bce85e616f5f6a13d968db5333cd40093afed327b3063b10a1bd9f5",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I082",
+      "url": "http://foodi-servem.com/img/introduce/production_list_02.jpg",
+      "local": "assets/source/I082.jpg",
+      "sha256": "e0346f5031ffddb1aac75fe66082bf3d28d93faf6953cd243885a4c20e75790c",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I083",
+      "url": "http://foodi-servem.com/img/introduce/production_list_03.jpg",
+      "local": "assets/source/I083.jpg",
+      "sha256": "5bba29eae0a95bf4f980b83259f321df14ec2fb85a2149e967b098293283a7c7",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I084",
+      "url": "http://foodi-servem.com/img/introduce/production_list_04.jpg",
+      "local": "assets/source/I084.jpg",
+      "sha256": "a4a86ff54f0e43781e165bfe4d839ae7f881f891d943803375e76f53ab4cfd12",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I085",
+      "url": "http://foodi-servem.com/img/introduce/production_list_05.jpg",
+      "local": "assets/source/I085.jpg",
+      "sha256": "ccd8490b6250f8cb8877fa6c5a0dc7e5b97e5dc09e0a0a913a1112f91170ffd9",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I086",
+      "url": "http://foodi-servem.com/img/introduce/production_list_06.jpg",
+      "local": "assets/source/I086.jpg",
+      "sha256": "9076c19cd1b04bf7aa1b13aebcce46c8800f8a4b6cd11fa5368dfd7257b1ec66",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I087",
+      "url": "http://foodi-servem.com/img/introduce/production_list_07.jpg",
+      "local": "assets/source/I087.jpg",
+      "sha256": "bdbeec3fdc8925cf26296bce9e7f2063858a9d39c373eb23219fbc76e9d78eb6",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I088",
+      "url": "http://foodi-servem.com/img/introduce/production_list_08.jpg",
+      "local": "assets/source/I088.jpg",
+      "sha256": "4037ca8684e12be6126d062307cd6c13d94c3521b47e7be066db3abde6a77e7d",
+      "group": "company_facilities"
+    },
+    {
+      "id": "I089",
+      "url": "http://foodi-servem.com/data/mainBanner/27001787200089.jpg",
+      "local": "assets/source/I089.jpg",
+      "sha256": "659b4f54771c2244543f9466e68e6bb22b6b419b6677659623d0648ada3a276c",
+      "group": "home"
+    },
+    {
+      "id": "I090",
+      "url": "http://foodi-servem.com/data/mainBanner/50571716863028.jpg",
+      "local": "assets/source/I090.jpg",
+      "sha256": "c5ef6cc95686aeb6b76cbfa4e3a8dbad64877db28318a35e01ed325db6dbc629",
+      "group": "home"
+    },
+    {
+      "id": "I091",
+      "url": "http://foodi-servem.com/data/mainBanner/52451714375742.jpg",
+      "local": "assets/source/I091.jpg",
+      "sha256": "092cd6e7cd96b9b0257fa17c062ffd09c2553fc3effd049c0f3b7cd4e067ecad",
+      "group": "home"
+    },
+    {
+      "id": "I092",
+      "url": "http://foodi-servem.com/data/mainBanner/72831714092421.jpg",
+      "local": "assets/source/I092.jpg",
+      "sha256": "6fb2a2d67406db34105f7e91eff006ada84f065f775bf19391136b8a44b7de0e",
+      "group": "home"
+    },
+    {
+      "id": "I093",
+      "url": "http://foodi-servem.com/data/mainBanner/78391716863028.jpg",
+      "local": "assets/source/I093.jpg",
+      "sha256": "32c7a789dd1cd767e8344aab602d5d22a4c3792dcbf3f67cc60015e77cd77cf6",
+      "group": "home"
+    },
+    {
+      "id": "I094",
+      "url": "http://foodi-servem.com/data/mainBanner/80411727926490.gif",
+      "local": "assets/source/I094.gif",
+      "sha256": "8e717dd0d7208ee67970a9e8573be9119adfd00247d69dd360e5a8ad270d97c6",
+      "group": "home"
+    },
+    {
+      "id": "I095",
+      "url": "http://foodi-servem.com/img/main/company_bg.jpg",
+      "local": "assets/source/I095.jpg",
+      "sha256": "240998a06cc9b07ee6ed7b76aa8c514de22d04769a4597d2c5f5e7e0d5499ed4",
+      "group": "home"
+    },
+    {
+      "id": "I096",
+      "url": "http://foodi-servem.com/img/main/company_icon_01.png",
+      "local": "assets/source/I096.png",
+      "sha256": "eefb79bddb14cdc1edd9fa981b8c48fdb69ee0fc53d149240e302460611e7918",
+      "group": "home"
+    },
+    {
+      "id": "I097",
+      "url": "http://foodi-servem.com/img/main/company_icon_02.png",
+      "local": "assets/source/I097.png",
+      "sha256": "ae29573ad94a74f9c0d06d4859c6ab29c7f75006875ab2422ec5aa47804dc5fc",
+      "group": "home"
+    },
+    {
+      "id": "I098",
+      "url": "http://foodi-servem.com/img/main/company_icon_03.png",
+      "local": "assets/source/I098.png",
+      "sha256": "ee265ca6e4d2b332e693b7375845ef5ac1f7c2a777c6b4a30acdfc95460e4109",
+      "group": "home"
+    },
+    {
+      "id": "I099",
+      "url": "http://foodi-servem.com/img/main/intro_arrow.png",
+      "local": "assets/source/I099.png",
+      "sha256": "4deb48a8d8d5b301e0f57113c0082455c57510cd1f85a28844d176a2c5d20e97",
+      "group": "home"
+    },
+    {
+      "id": "I100",
+      "url": "http://foodi-servem.com/img/main/intro_img_01.png",
+      "local": "assets/source/I100.png",
+      "sha256": "2baa71b0df67b9f1403c335744627780f7e0561bf3137813ba05ad3dd773c072",
+      "group": "home"
+    },
+    {
+      "id": "I101",
+      "url": "http://foodi-servem.com/img/main/intro_img_01_on.png",
+      "local": "assets/source/I101.png",
+      "sha256": "7b53af81a2a47ab3bca7acd0a5e9c4f60d88b8d2b35c5dceb3de07d39afae44d",
+      "group": "home"
+    },
+    {
+      "id": "I102",
+      "url": "http://foodi-servem.com/img/main/intro_img_02.png",
+      "local": "assets/source/I102.png",
+      "sha256": "36e1f98dc50964e1f5bb68f36d2790ab0b3bf08cab16c986119a9b3d70aaac2a",
+      "group": "home"
+    },
+    {
+      "id": "I103",
+      "url": "http://foodi-servem.com/img/main/intro_img_02_on.png",
+      "local": "assets/source/I103.png",
+      "sha256": "04d621117ed129781817e2ac09a3a9e10c65b06b082b39953c2eb72d2c6715fe",
+      "group": "home"
+    },
+    {
+      "id": "I104",
+      "url": "http://foodi-servem.com/img/main/intro_img_03.png",
+      "local": "assets/source/I104.png",
+      "sha256": "b43df99867b958e0ce58d62c40fa473eb701fe1ba4206049dbfd7da5034d4bf3",
+      "group": "home"
+    },
+    {
+      "id": "I105",
+      "url": "http://foodi-servem.com/img/main/intro_img_03_on.png",
+      "local": "assets/source/I105.png",
+      "sha256": "49c569f81093eb1d733476739d0172f7daa93a3bdf666a58452b90a47d3b2f52",
+      "group": "home"
+    },
+    {
+      "id": "I106",
+      "url": "http://foodi-servem.com/img/main/intro_img_04.png",
+      "local": "assets/source/I106.png",
+      "sha256": "0ee8aadad16fdc137f5096af56ba264fe588d8ccb179f51138c3d97c09a76a35",
+      "group": "home"
+    },
+    {
+      "id": "I107",
+      "url": "http://foodi-servem.com/img/main/intro_img_04_on.png",
+      "local": "assets/source/I107.png",
+      "sha256": "266a7dd080e0b42ecef800511b15ff2eea358452cc7d30ddba90d463981516b3",
+      "group": "home"
+    },
+    {
+      "id": "I108",
+      "url": "http://foodi-servem.com/data/editor/2405/7433fb61dfa2b8b29f96bcc13338ea21_1716770913_528.png",
+      "local": "assets/source/I108.png",
+      "sha256": "70f5061ae3814e844af78e93c0a37d830f282155d9fdfd04508fa2c544cd8d6c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I109",
+      "url": "http://foodi-servem.com/data/editor/2405/7433fb61dfa2b8b29f96bcc13338ea21_1716772067_3193.png",
+      "local": "assets/source/I109.png",
+      "sha256": "1c9ac0f32e96f572e158c696411b72441b834f5311d1160d0ed38cb52571b406",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I110",
+      "url": "http://foodi-servem.com/data/editor/2406/0d143617020b78f7fde4aa2ad90c3592_1719455392_1458.png",
+      "local": "assets/source/I110.png",
+      "sha256": "6385fc4e7289e368d12ac5e38a323da039d017fdaf4f9b8b6ea2e24b9afdf0bd",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I111",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455511_9694.png",
+      "local": "assets/source/I111.png",
+      "sha256": "9d19f84a0e087c13c4eef5a272d81cf00d70bb275608bcdb6bd4513656715a3a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I112",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455664_9844.png",
+      "local": "assets/source/I112.png",
+      "sha256": "e11fd7a5a8aa12dd6d0045e13b938a1534c9f6ec1990eb61716c11e7ff757eb7",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I113",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455731_6597.png",
+      "local": "assets/source/I113.png",
+      "sha256": "d501c424e3f1d025e23c6235c93eeb77e725243a8e2644311392e24476984f18",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I114",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455770_2168.png",
+      "local": "assets/source/I114.png",
+      "sha256": "97a9be9710edeb99a3d8dffba36c1c64ce2f2258d059c589cb0fd7d14c8f6281",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I115",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455817_8889.png",
+      "local": "assets/source/I115.png",
+      "sha256": "eeff15e3e6f76c48a7a348a29bc168db1cf3d27d9bc980c2c17489fc0770d674",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I116",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455860_3054.png",
+      "local": "assets/source/I116.png",
+      "sha256": "0be51ddf74e432c0b5cd6eb8fbc6df6d074abcbd08fcdb46360f608a747b03f4",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I117",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455896_7491.png",
+      "local": "assets/source/I117.png",
+      "sha256": "6eeadf012069fe13fa61c5d0df759e4b183098e2fc892960e7ad7ffba85d51ee",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I118",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455941_7055.png",
+      "local": "assets/source/I118.png",
+      "sha256": "2bc9f54e4b0b8b7e3612b6887d7c4b574daa6422bb9dff65bf154d128a2e6f47",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I119",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719455972_7806.png",
+      "local": "assets/source/I119.png",
+      "sha256": "d1b458d343f04a6a2fdb4dcb1a1a7361e84fbff6141fc45e24603baee33b41b1",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I120",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456006_2212.png",
+      "local": "assets/source/I120.png",
+      "sha256": "76ce4ad1dbba030b4c8df188a200c51530da17468a595b61181c7673df7e2406",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I121",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456037_57.png",
+      "local": "assets/source/I121.png",
+      "sha256": "af94a86cbbdbd1142119ea965c6946570e2b5a70a703567cc46ed7759e7049c2",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I122",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456075_2355.png",
+      "local": "assets/source/I122.png",
+      "sha256": "c30784f49acb11bba9b5952ff64e87ed02277861e4328bd4cc087ac81de84c5f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I123",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456108_6588.png",
+      "local": "assets/source/I123.png",
+      "sha256": "c0123b06011c7b5f28807d208dec129d69ca9295aac35b4733a4237def2a1d79",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I124",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456140_5126.png",
+      "local": "assets/source/I124.png",
+      "sha256": "9bfd195663d93774c710c9bc963cd809c5b7a40c28b71adb7e4b84c6d448818a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I125",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456172_0891.png",
+      "local": "assets/source/I125.png",
+      "sha256": "f9828379efad9fb86fd7f91783b11b71372c0c7b631b8a54cfadc667715adde6",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I126",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456199_9531.png",
+      "local": "assets/source/I126.png",
+      "sha256": "6f57b1e752d6ded98447eeddb039491a77ff9addce35c7668ec484f12974e002",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I127",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456232_0362.png",
+      "local": "assets/source/I127.png",
+      "sha256": "7933322f0a5246ba2af4b46fc121d8c3ac7d552d26404c6639d2665c51872224",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I128",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456260_4134.png",
+      "local": "assets/source/I128.png",
+      "sha256": "9695126549a218ece5fcd2a25b40ee8b165f541730ccafd0896a4a8b344ddd89",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I129",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456297_6443.png",
+      "local": "assets/source/I129.png",
+      "sha256": "34548871251c94faeda20dab48ccf9802872c3dd8df08818f031f56941bab1a2",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I130",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456329_2784.png",
+      "local": "assets/source/I130.png",
+      "sha256": "fae28420829b65842198d56510bd4c7f45369970584a15c3354fc0394795ba87",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I131",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456372_6968.png",
+      "local": "assets/source/I131.png",
+      "sha256": "c6373c9ffef296b851e59594e9980b77523d3d599e67438178d53ac4c0371412",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I132",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456415_1573.png",
+      "local": "assets/source/I132.png",
+      "sha256": "89be1f07bb94e1aa4593724b5c303d23bbc5c4651a041faebeb049914238c8c0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I133",
+      "url": "http://foodi-servem.com/data/editor/2406/557016f59d6d826deb4caad2f325c759_1719456444_8464.png",
+      "local": "assets/source/I133.png",
+      "sha256": "59ded15d1c90bea679b10b8300135d996599159f39d7bb26514d564c1280c73b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I134",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456622_447.jpg",
+      "local": "assets/source/I134.jpg",
+      "sha256": "4ffa4ae707b72d23970eed8cdc83204f1b6ff7ae4a7ad85ba601a4eb4b906b3a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I135",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456794_5925.jpg",
+      "local": "assets/source/I135.jpg",
+      "sha256": "ba2602e814420ed947737457d9e1b84f1fde36c5f102b7a5538a2ed0651a2f2c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I136",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456832_8257.jpg",
+      "local": "assets/source/I136.jpg",
+      "sha256": "4076099f63ff207d153c6179402d509480a22d35c0edb4ddeb743a5eb28d905b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I137",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456883_3425.jpg",
+      "local": "assets/source/I137.jpg",
+      "sha256": "29cb40b4f61a2386d99f10bfb179025543d6c57bf2f7852e5cceb646e8a0bf4b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I138",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456939_1425.jpg",
+      "local": "assets/source/I138.jpg",
+      "sha256": "2aeb89c8c6653cad0511359496048f61cafafe0fb152cd3eacc4d8cdedece073",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I139",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719456972_4199.jpg",
+      "local": "assets/source/I139.jpg",
+      "sha256": "104586d18cff4f85359eb0321f7fad7f439aa9edc8908b8d059604a0e26f7208",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I140",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457010_1069.jpg",
+      "local": "assets/source/I140.jpg",
+      "sha256": "ea8b28b63a673bf0cf429331cff0a8cf7141c0fc8cd8f5ab2cab2ec30911df0c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I141",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457053_8364.jpg",
+      "local": "assets/source/I141.jpg",
+      "sha256": "c0f24ffb7cfddc96dbf3a8fdbcf76fe64053b7f97b6b57d314047254ff13af33",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I142",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457093_1031.jpg",
+      "local": "assets/source/I142.jpg",
+      "sha256": "2e7095a3a6f0e7fa33737e0d96620de8de0666473aa61fcd51d442fecaceadc3",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I143",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457127_3085.jpg",
+      "local": "assets/source/I143.jpg",
+      "sha256": "861ef40adeb6fb57489b53545a134ea5e5456ef56ee4dfd98696822274dab7a0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I144",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457161_8735.jpg",
+      "local": "assets/source/I144.jpg",
+      "sha256": "c1d756eac9df58b99d476e38e39f68a0229888ab0a5c80fb8e8fef6456836e66",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I145",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457193_3713.jpg",
+      "local": "assets/source/I145.jpg",
+      "sha256": "bbaba6abd5158ee072b78f503de400f9a253cdc788892ddde823ffef26e37992",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I146",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457225_6268.jpg",
+      "local": "assets/source/I146.jpg",
+      "sha256": "1a9d6110be6f616a283b0bbefa60aab09675f9a029d8157bb66dc05c8f2d5d65",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I147",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457252_566.jpg",
+      "local": "assets/source/I147.jpg",
+      "sha256": "178debbfbf666e90bcf44d786d99a68f912446be8d151606cc50cb7c2f08804d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I148",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457289_0473.jpg",
+      "local": "assets/source/I148.jpg",
+      "sha256": "3b8443bd266347a6dd8442a8bb4fe78d13cb44acacb09cb1607d0cd4f0bdeba0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I149",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457329_1118.jpg",
+      "local": "assets/source/I149.jpg",
+      "sha256": "c187b7d625663adf0d79758b38d8080f0022c439f8da0643b3a35c420950beef",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I150",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457361_5243.jpg",
+      "local": "assets/source/I150.jpg",
+      "sha256": "a7d4ae6db68a30609503690d4581e2c9177d8ee458776dbcb8cca627fdf048b7",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I151",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457399_3818.jpg",
+      "local": "assets/source/I151.jpg",
+      "sha256": "92208f038271cb03fa7428ed388700dd2bd553254b94d2d0871c47007c603370",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I152",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457445_1657.jpg",
+      "local": "assets/source/I152.jpg",
+      "sha256": "e298a88899f0f2e96a0dcec8dc3558da8274f258e4f1696efe54fefcde73c365",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I153",
+      "url": "http://foodi-servem.com/data/editor/2406/a2000d7728a2e92d6b19818890df144a_1719457489_8446.jpg",
+      "local": "assets/source/I153.jpg",
+      "sha256": "59f1b85bba17e5d25e7d4e49f32e8f35ab71e884b0376bbf071a5d4d9d3299e5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I154",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-0d143617020b78f7fde4aa2ad90c3592_1719455392_1458_320x320.png",
+      "local": "assets/source/I154.png",
+      "sha256": "593bd8f18e9415479d9aa18f3e096a538f635f25c61160a8132cdd59a95f629e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I155",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455511_9694_320x320.png",
+      "local": "assets/source/I155.png",
+      "sha256": "f21cc425cd4935544b84e2d7697a1eafd242348d92fe9275568a4d63b8a79b3d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I156",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455664_9844_320x320.png",
+      "local": "assets/source/I156.png",
+      "sha256": "eafbe240415aac001cef62341d73caac9507c2e845c05134a77039571351070f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I157",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455731_6597_320x320.png",
+      "local": "assets/source/I157.png",
+      "sha256": "868d5438e07b6330331a0e9631c490970e72a779edba59b34f654e251854b4de",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I158",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455770_2168_320x320.png",
+      "local": "assets/source/I158.png",
+      "sha256": "6b0a0415bd39c6bcc50fc6172513b8c9ee81f4dbb32265b5ee7383ec89fc9c5f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I159",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455817_8889_320x320.png",
+      "local": "assets/source/I159.png",
+      "sha256": "6fa6fadf882c3f6e890d2ada51eed44c214adeb1af4035948055dfe8b6286b23",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I160",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455860_3054_320x320.png",
+      "local": "assets/source/I160.png",
+      "sha256": "3d5e19252dc34305d3540a442387c0192f1cb052d3c8c5bf6893eac5adcd0311",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I161",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455896_7491_320x320.png",
+      "local": "assets/source/I161.png",
+      "sha256": "ae6c00557631111feea70d3c9fa93d8f373261135bc137bd0bc8683d9a4d4f47",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I162",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455941_7055_320x320.png",
+      "local": "assets/source/I162.png",
+      "sha256": "ee9aad0e58d585a9e13a414d0460cc698887283830968abaea2b343a5d210780",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I163",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719455972_7806_320x320.png",
+      "local": "assets/source/I163.png",
+      "sha256": "dbcb384b4441a9c1105ac9d9662e916cff96b4b8018fad337267d0427d380aa5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I164",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456006_2212_320x320.png",
+      "local": "assets/source/I164.png",
+      "sha256": "5acba773d189d254020e96c82ab67ec0bd1ceb3dea4e1ae5a6e70146ca9a1190",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I165",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456037_57_320x320.png",
+      "local": "assets/source/I165.png",
+      "sha256": "65377e6589184cbca5a59f385255db229e40f6a98ff28b5fb272220dbfb5d6f9",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I166",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456075_2355_320x320.png",
+      "local": "assets/source/I166.png",
+      "sha256": "5f4e4984cc5c59688f9a63b1c44027a31b2f63bf71459159e3bf071a17b268e5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I167",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456108_6588_320x320.png",
+      "local": "assets/source/I167.png",
+      "sha256": "558f081cb6ee644904558ff2e7556419819d70213fdba6f5f9989735863b0ace",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I168",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456140_5126_320x320.png",
+      "local": "assets/source/I168.png",
+      "sha256": "b0be187ae260d5447a4b23b2a0d650ad8f0511c1a1f3092bda5a6872f508c2d3",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I169",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456172_0891_320x320.png",
+      "local": "assets/source/I169.png",
+      "sha256": "3a1a482eb206c1759f8cec49125c99ca5a61bd917f2b65470264c8c83c82a593",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I170",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456199_9531_320x320.png",
+      "local": "assets/source/I170.png",
+      "sha256": "8c7481969914548427afbc66acbcdc748dabeea202fad803efb1757cfa84e51a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I171",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456232_0362_320x320.png",
+      "local": "assets/source/I171.png",
+      "sha256": "94321a722e95d78ddf789bd98457c930f2a7aff21ebc28c8ffb9d8a02bc7b52d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I172",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456260_4134_320x320.png",
+      "local": "assets/source/I172.png",
+      "sha256": "d8c193ff773ca84ee905a2b4997b37b8ef2aeb6c218b033ae8c451197a004f87",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I173",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456297_6443_320x320.png",
+      "local": "assets/source/I173.png",
+      "sha256": "2eedb282e65afbeb2081c0625d3e7301f092f79113aa0075d47545589cc3fb60",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I174",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456329_2784_320x320.png",
+      "local": "assets/source/I174.png",
+      "sha256": "e45da65fbac275641186f6738baf25d45a1b361c2010880e311f12ec63496bc0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I175",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456372_6968_320x320.png",
+      "local": "assets/source/I175.png",
+      "sha256": "fb8c0ceac62c1249e8b550fdd11c88a64a79a967169d4938be52afb2954341ab",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I176",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456415_1573_320x320.png",
+      "local": "assets/source/I176.png",
+      "sha256": "ad339d1c890524efbce48c8e03bd9ec010378c6f7807750c61573850540a72d2",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I177",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-557016f59d6d826deb4caad2f325c759_1719456444_8464_320x320.png",
+      "local": "assets/source/I177.png",
+      "sha256": "368479830047f5059228d80d0b86d29442a8760c6ef67b47c0e3a22fd8cfa27f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I178",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456622_447_320x320.jpg",
+      "local": "assets/source/I178.jpg",
+      "sha256": "d4f09a7268e44fc54ca7ec16a87a94a4210496fc9675c252f20bae50837c1dd5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I179",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456794_5925_320x320.jpg",
+      "local": "assets/source/I179.jpg",
+      "sha256": "fbae776a171317c2181235b5c117266d2870b1dfdb4a6c6afa92476844fe916e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I180",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456832_8257_320x320.jpg",
+      "local": "assets/source/I180.jpg",
+      "sha256": "a2edd9d8d3c7909332e1fe43903f0fae9a4690264305ff88e95d81e2beaae9c9",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I181",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456883_3425_320x320.jpg",
+      "local": "assets/source/I181.jpg",
+      "sha256": "8e8e376253f061115dd12949b734c495539fce8c3c0a40193947caec4587a997",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I182",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456939_1425_320x320.jpg",
+      "local": "assets/source/I182.jpg",
+      "sha256": "da5e81cb71795dd794a7bca0cab50470bf93a6d0d11d87db7ea6b4bfcdde9617",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I183",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719456972_4199_320x320.jpg",
+      "local": "assets/source/I183.jpg",
+      "sha256": "bd807092ef26df01259ba8a0c40053ff116afd4df76b5a4c564b57db4b339c72",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I184",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457010_1069_320x320.jpg",
+      "local": "assets/source/I184.jpg",
+      "sha256": "74369a297fc3f4d3d218a3f847ab086004b76246cd91b19d6b52306e40eaec36",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I185",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457053_8364_320x320.jpg",
+      "local": "assets/source/I185.jpg",
+      "sha256": "54fb103c6e3f03c004e30e2e6ab1040c0f94af10c0dd8dd556f2e78b07ce7a4d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I186",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457093_1031_320x320.jpg",
+      "local": "assets/source/I186.jpg",
+      "sha256": "bf92f3575c40af55f3fd54b6164ce6479c996e6cd483e4046560750c78d17ba7",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I187",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457127_3085_320x320.jpg",
+      "local": "assets/source/I187.jpg",
+      "sha256": "1eeb7c0c78e29fa628533831e3040feaac13b8d9a27c1a85f4a1bce2b72c3b7d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I188",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457161_8735_320x320.jpg",
+      "local": "assets/source/I188.jpg",
+      "sha256": "c64cdad78fef88b57f814ae9ac55da9d504bf98fe92847ccd9021508a8611588",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I189",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457193_3713_320x320.jpg",
+      "local": "assets/source/I189.jpg",
+      "sha256": "f4893aaad67201fb075df52a5f3c3e08a6c4e3bf67ae9348df6c0b5f4f42ab22",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I190",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457225_6268_320x320.jpg",
+      "local": "assets/source/I190.jpg",
+      "sha256": "80562182773cf9acb6f40b829687735a139b435dce6052d3e8550c95af217918",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I191",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457252_566_320x320.jpg",
+      "local": "assets/source/I191.jpg",
+      "sha256": "4df6b93022ae6b2fcadfdea816e99ad7fd15a1444dca3c6956cc43026216f24e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I192",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457289_0473_320x320.jpg",
+      "local": "assets/source/I192.jpg",
+      "sha256": "aba5ccd8105ed92c2366ae128e6c1ccc129e75ae27d4b489a33775788499ec4b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I193",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457329_1118_320x320.jpg",
+      "local": "assets/source/I193.jpg",
+      "sha256": "752c68aaa9d9d88e17dfc6f13957108a3e929aeca77f1b34129bd4d51fd241fe",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I194",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457361_5243_320x320.jpg",
+      "local": "assets/source/I194.jpg",
+      "sha256": "d9325409c4d9e52df808bae61b07a81c6a41458cb5ff29482a155d340dbe3a78",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I195",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457399_3818_320x320.jpg",
+      "local": "assets/source/I195.jpg",
+      "sha256": "3c8a9319a3c63a4ebe19e67c0f26300965aa8969b784b666949eae2d871c40dd",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I196",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457445_1657_320x320.jpg",
+      "local": "assets/source/I196.jpg",
+      "sha256": "ab6acac41d56651994818281d1924e797af10add0d6bbd8b6ae165762fa9fc8b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I197",
+      "url": "http://foodi-servem.com/data/editor/2406/thumb-a2000d7728a2e92d6b19818890df144a_1719457489_8446_320x320.jpg",
+      "local": "assets/source/I197.jpg",
+      "sha256": "ee7fc99b9e0c38111c7624d2e993fad5dd13ac7d4155fb330c483ef6a3b2eef2",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I198",
+      "url": "http://foodi-servem.com/data/editor/2407/1e3861d6464f6e7cdeb89a45a9db43cd_1720749739_1288.jpg",
+      "local": "assets/source/I198.jpg",
+      "sha256": "58f53445e41d36de23eab1e7154fe91562e2840a72b1edbc170b9cda4561aaf7",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I199",
+      "url": "http://foodi-servem.com/data/editor/2407/398221d821861b201a1220a5bfe73ac4_1721706031_3682.png",
+      "local": null,
+      "sha256": "08d17f5cc9ad71ecb6cd4111916fd71a56ca4be87c917287669be0d2e527e57a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I200",
+      "url": "http://foodi-servem.com/data/editor/2407/398221d821861b201a1220a5bfe73ac4_1721706038_9962.png",
+      "local": null,
+      "sha256": "13f0d7374b12fa32661bc339d9f9cdb80f102d863b446cd88bb846f8a9010fa5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I201",
+      "url": "http://foodi-servem.com/data/editor/2407/398221d821861b201a1220a5bfe73ac4_1721706039_1082.png",
+      "local": null,
+      "sha256": "cafbad5a7a3837eb3cf2f3e7a33673a392f291bc4c3fa9924627058c74fc4bc2",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I202",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004240_9121.png",
+      "local": "assets/source/I202.png",
+      "sha256": "ecd1241437fad43e49623265f03b40d862c33707f07bed6a15f9e8d7e424e3b6",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I203",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004286_0012.png",
+      "local": "assets/source/I203.png",
+      "sha256": "98265427d8c49d3f665ec97cb6c9f31a29e8910ea7ff0805ff6486b47e741137",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I204",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004333_8719.png",
+      "local": "assets/source/I204.png",
+      "sha256": "0de5d445bb062fcaa7b62b6f33bc3d40ae59095716b209a236a74e2ead99eea1",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I205",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004481_0165.png",
+      "local": "assets/source/I205.png",
+      "sha256": "fe51e61c437e5fc1a088667fc179ecb0807ad8f38982493cf70f33f8bc19bde0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I206",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004531_8508.png",
+      "local": "assets/source/I206.png",
+      "sha256": "4511fefb6faa67db85867f7e30fffbe0fe6a8e4a0205d5bfd32bfff73f63bcef",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I207",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004673_899.png",
+      "local": "assets/source/I207.png",
+      "sha256": "87b2b730318defe23150fade0c572694b39a78b68df7eb775cde8e3c5386fa63",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I208",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004728_2105.png",
+      "local": "assets/source/I208.png",
+      "sha256": "3182e939e6ade87ff43aca0a721b6e493f9b60204b5b733316de3e4461701038",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I209",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004769_3145.png",
+      "local": "assets/source/I209.png",
+      "sha256": "47301ab20a3d6fc268b6f428f53c5d486d430497e825b44ddcb35610db4fa7b0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I210",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004813_0155.png",
+      "local": "assets/source/I210.png",
+      "sha256": "0a800806fcdff90259930fa64d6283eb3f11afb0c4131c418206ebfc888f1d4a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I211",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004848_4047.png",
+      "local": "assets/source/I211.png",
+      "sha256": "fee1760b26c62352c362c8df21063edda2a6a2ec4f5d285d9a421b9179bfbaf9",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I212",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721004889_3719.png",
+      "local": "assets/source/I212.png",
+      "sha256": "15e79f1a28d6cb25eeff6430325d3faf91802aa74ed318e3e9d42a8df8acada8",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I213",
+      "url": "http://foodi-servem.com/data/editor/2407/854a97b6eb7db9b5da7dd5d3ea3271de_1721005879_3397.png",
+      "local": "assets/source/I213.png",
+      "sha256": "af3fbc6d1b4bbee9a94a456b61e7ff29b0d85b0c8bf35ab5a8543178614b121b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I214",
+      "url": "http://foodi-servem.com/data/editor/2407/8ad04a2c15f88e2aaab6f508ea7d0c1f_1720421671_7563.jpg",
+      "local": "assets/source/I214.jpg",
+      "sha256": "d8a13ba0dc5872dc065024445571b7cd2d09896fc9de937a5d85afe5d76a667d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I215",
+      "url": "http://foodi-servem.com/data/editor/2407/90de62019565a49e2bf6116edd6d6eb2_1721721066_3267.png",
+      "local": null,
+      "sha256": "13cb7c61e060be61ac4cdfc8202516c5a2cc62a17c6754b9a230dc7d5e706f4a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I216",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699426_9187.png",
+      "local": "assets/source/I216.png",
+      "sha256": "81df5e08543edff4d81f9868881620991c222b05d22d3058dd718b8810d24615",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I217",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699484_5205.png",
+      "local": "assets/source/I217.png",
+      "sha256": "de35b67a3980a1559a5b6aba673428435af241a86ecd90bf06dee81889c9b331",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I218",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699515_0044.png",
+      "local": "assets/source/I218.png",
+      "sha256": "680173b25ed0a83279b261c550929d6dbb811c05cfb0eaa0255e58977ab15eec",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I219",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699545_3061.png",
+      "local": "assets/source/I219.png",
+      "sha256": "4f11114e34b793344c707fc5cce0335a0e019eba1cff42c5aa1977389c1f9562",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I220",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699674_9095.png",
+      "local": "assets/source/I220.png",
+      "sha256": "af5cdd1a73a9b48002ef6437d0e0d1e36d08d1ec2d5c824d22a03e7f910f1124",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I221",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699714_2398.png",
+      "local": "assets/source/I221.png",
+      "sha256": "3a3b17d4151da270a0c91d73d6ece2e646283776d1dc873ae1774182d9bcbdbd",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I222",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699742_3794.png",
+      "local": "assets/source/I222.png",
+      "sha256": "7f57b6e707f3b4177bdcd518d83342e11fba25e24528270a87b3bcb312358110",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I223",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699776_1941.png",
+      "local": "assets/source/I223.png",
+      "sha256": "303b061a698b6b5080f67dc605798ee5897e3b6725a4c7abf3b31451c1e3dbc3",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I224",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699814_3836.png",
+      "local": "assets/source/I224.png",
+      "sha256": "b2b0944a2143681f9c3687c4d4856592d8c2440ad647f51d51dd9f71e5c88b37",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I225",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721699967_8075.png",
+      "local": "assets/source/I225.png",
+      "sha256": "5ff7c38df55e0b544e1a1180e8601b119f3b1a34bbcf9d54e351f2695e33ff06",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I226",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721700107_0263.png",
+      "local": "assets/source/I226.png",
+      "sha256": "355feacebf1477a27ad1c22e3bd2006749645452cd90d37a5c98e067352e445b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I227",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721700251_8742.png",
+      "local": "assets/source/I227.png",
+      "sha256": "ca28e5e24357ce5acce956b2328430c3e521e3dd5b487d7128e1c76e3cb91619",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I228",
+      "url": "http://foodi-servem.com/data/editor/2407/9fada546c7be4cf7ec96a2798a92d1c9_1721700289_5025.png",
+      "local": "assets/source/I228.png",
+      "sha256": "148df32a68ca0a9bd8344a63096dd4fc38a0153784029ee9d9d694e982d2d85b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I229",
+      "url": "http://foodi-servem.com/data/editor/2407/fedc91e7427cbb802f69fdbafd0c6ace_1720749141_877.jpg",
+      "local": "assets/source/I229.jpg",
+      "sha256": "d64fa7d6b1581c60d5eb2434ed2a73e6091fe52b0aea06f2592c0a35caaff018",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I230",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-7547a5647f85b0e6d09414fcbe75c2d5_1721705552_5238_835x523.png",
+      "local": null,
+      "sha256": "eecffab088bececba47b099e91e556d3c2ee1446a4a200b2ce64f986798ed722",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I231",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699426_9187_320x320.png",
+      "local": "assets/source/I231.png",
+      "sha256": "9061dcfe9256fb346316017e6521b981666af57a487e56ad23d3e15dcfe864eb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I232",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699484_5205_320x320.png",
+      "local": "assets/source/I232.png",
+      "sha256": "35a63e2cc23fbf5fab6e9f151fa300c797c012912716ba50973446b9a7b4331d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I233",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699515_0044_320x320.png",
+      "local": "assets/source/I233.png",
+      "sha256": "7a997c92d9276d4e8e22af8eacb5463fba9be8dcb5b6541733c92e595d4da4a6",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I234",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699545_3061_320x320.png",
+      "local": "assets/source/I234.png",
+      "sha256": "d2a7c8334b44a44c6bf616657de6ce1e7cb34f2415ad6f66ed1a49dc67e498ae",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I235",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699674_9095_320x320.png",
+      "local": "assets/source/I235.png",
+      "sha256": "ee0e5137b595e642a904e8a0703326863ec2fd8d80e8561c2939868024d7b353",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I236",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699714_2398_320x320.png",
+      "local": "assets/source/I236.png",
+      "sha256": "0c13f066601252a901f49e249c89d35cf2f04180dfd8b38e7ab44b2a4eee700c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I237",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699742_3794_320x320.png",
+      "local": "assets/source/I237.png",
+      "sha256": "0517eb61ce9d1b38b3831fef18ce7499f1f7926d1c82af4a60a59e0744b91a59",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I238",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699776_1941_320x320.png",
+      "local": "assets/source/I238.png",
+      "sha256": "651ab078a9acae05276e6836b98dfd8484d5622dcbb92b2eaac2825524ffc7e9",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I239",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699814_3836_320x320.png",
+      "local": "assets/source/I239.png",
+      "sha256": "94d6a263c5be5a2ac64b70c8ccd3998257847aa92fbaa3795961b5b3ccb97187",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I240",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721699967_8075_320x320.png",
+      "local": "assets/source/I240.png",
+      "sha256": "3c012ed5ebbe4ad14a3cbfbdaa0373eb6b5d58225abbcb129cc699298f934e54",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I241",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721700107_0263_320x320.png",
+      "local": "assets/source/I241.png",
+      "sha256": "320fd88eb84be0f86a60c1c140ed8e8a6d0197320dcb00d5e24481cadf1937ea",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I242",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721700251_8742_320x320.png",
+      "local": "assets/source/I242.png",
+      "sha256": "f55ac97a776575921a20cdcbcf8606197fb8a646ce8e82f3678d060ede29cf9b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I243",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-9fada546c7be4cf7ec96a2798a92d1c9_1721700289_5025_320x320.png",
+      "local": "assets/source/I243.png",
+      "sha256": "372643b86bf5eebaa1c3b7fa8dcf56d8ad6ee84464ac6254af92a9c1133fc284",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I244",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-fd87d9c12555b24517798a4b02fa7f3a_1721099530_8784_1350x1733.png",
+      "local": "assets/source/I244.png",
+      "sha256": "97a8d3a985c3ebd062abdfcf369ba816ce4a4d0dd3431115cef04efe603d4e54",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I245",
+      "url": "http://foodi-servem.com/data/editor/2407/thumb-fd87d9c12555b24517798a4b02fa7f3a_1721099530_8784_320x320.png",
+      "local": "assets/source/I245.png",
+      "sha256": "da22a5d0956452f40352b8588780d682f96737b0b16817cf23b7661713b50765",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I246",
+      "url": "http://foodi-servem.com/data/editor/2409/42e1b716898fb59e17b0134f3183c60b_1725353164_2372.jpg",
+      "local": "assets/source/I246.jpg",
+      "sha256": "2fc4bf99255d24f1d66c6ec125d49f21b20d2d4fafd557887761cdb13d767a4a",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I247",
+      "url": "http://foodi-servem.com/data/editor/2409/42e1b716898fb59e17b0134f3183c60b_1725353339_1769.png",
+      "local": "assets/source/I247.png",
+      "sha256": "37b1675050ee1e1edacccb277d8572287523cdf9d27e05ee8f69c6d02245c038",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I248",
+      "url": "http://foodi-servem.com/data/editor/2409/69165582f19b44225deaaa36b45060e9_1726028423_3195.jpg",
+      "local": "assets/source/I248.jpg",
+      "sha256": "220fa6c16415c0429f112ec69ed199ce416f2c3aa37685c33e8ae8d233126c8e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I249",
+      "url": "http://foodi-servem.com/data/editor/2409/8b1862d2f9d48a20ced5167028850c89_1725488101_616.png",
+      "local": "assets/source/I249.png",
+      "sha256": "d2de13752a80643efc4cce6e45890be623cf01bd6710bd4b82c5520fe22ebd60",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I250",
+      "url": "http://foodi-servem.com/data/editor/2409/c58dde494fea9d7821b6e8c9222e1f97_1725935715_1298.jpg",
+      "local": "assets/source/I250.jpg",
+      "sha256": "220fa6c16415c0429f112ec69ed199ce416f2c3aa37685c33e8ae8d233126c8e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I251",
+      "url": "http://foodi-servem.com/data/editor/2409/thumb-42e1b716898fb59e17b0134f3183c60b_1725352893_5034_1350x1733.png",
+      "local": "assets/source/I251.png",
+      "sha256": "97a8d3a985c3ebd062abdfcf369ba816ce4a4d0dd3431115cef04efe603d4e54",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I252",
+      "url": "http://foodi-servem.com/data/editor/2409/thumb-42e1b716898fb59e17b0134f3183c60b_1725353339_1769_320x320.png",
+      "local": "assets/source/I252.png",
+      "sha256": "0972e860bfc985564235079090043e3693c8ce317dfb8c9629c24e297526dafe",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I253",
+      "url": "http://foodi-servem.com/data/editor/2409/thumb-69165582f19b44225deaaa36b45060e9_1726028423_3195_320x320.jpg",
+      "local": "assets/source/I253.jpg",
+      "sha256": "0b246642a1ba05aa22142dd850cee926c3ccda0767439705fb70d9e6ab08089c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I254",
+      "url": "http://foodi-servem.com/data/editor/2410/b295729db35f492a0bb92cb639294f0c_1728949984_4308.png",
+      "local": "assets/source/I254.png",
+      "sha256": "2864876ec90fa5d6b472b81f39e144b7881d3cd7cfd3d642952837915b1f6e13",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I255",
+      "url": "http://foodi-servem.com/data/editor/2410/b295729db35f492a0bb92cb639294f0c_1728954767_1074.gif",
+      "local": "assets/source/I255.gif",
+      "sha256": "c3f1933cc6620386b37dd1f058666e688a489dbeb54a37f394a80c68595da2c8",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I256",
+      "url": "http://foodi-servem.com/data/editor/2410/thumb-43313ddd39e63866c55a836cc6fc6945_1729129754_649_1350x1754.jpg",
+      "local": "assets/source/I256.jpg",
+      "sha256": "86297def100803c703489188de87dbb3a8e26afe83317619b3c7f89172218c70",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I257",
+      "url": "http://foodi-servem.com/data/editor/2410/thumb-43313ddd39e63866c55a836cc6fc6945_1729129754_649_320x320.jpg",
+      "local": "assets/source/I257.jpg",
+      "sha256": "0511cc815f3b5a95e12d0e1816a835b707686875537ec25a5dccb5aeaa69e51d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I258",
+      "url": "http://foodi-servem.com/data/editor/2501/23d243045408b778f7cd19c2a6d033f8_1736231616_4119.png",
+      "local": "assets/source/I258.png",
+      "sha256": "e593e17a31908acc8cae3228b7292e7eb9970ccf3a1b20e3b061385cb5dfc9bb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I259",
+      "url": "http://foodi-servem.com/data/editor/2501/23d243045408b778f7cd19c2a6d033f8_1736302525_0565.png",
+      "local": "assets/source/I259.png",
+      "sha256": "7b15ad382501a9ce14d8e18c1fb344bf0e62cfa2be5767adcda2ba369bbb8c99",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I260",
+      "url": "http://foodi-servem.com/data/editor/2501/23d243045408b778f7cd19c2a6d033f8_1736309791_7385.png",
+      "local": "assets/source/I260.png",
+      "sha256": "e9a17cfb12806bef8c6a4ac6c893f0e6efcbe2a25a45d25236648d448c397928",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I261",
+      "url": "http://foodi-servem.com/data/editor/2501/8b66acf7543f12d0c455a16d39da0ec9_1736406157_5778.png",
+      "local": "assets/source/I261.png",
+      "sha256": "14629dce527b7de6c23939561088c35fb3cff881c4ae5c64c05391d66df3b25c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I262",
+      "url": "http://foodi-servem.com/data/editor/2501/9ecbeab5583477c7a32cf6ed4f363348_1736394456_1226.png",
+      "local": "assets/source/I262.png",
+      "sha256": "b1fbf295eec4df3e47f95e26798634ff758edea6287fba15799c30cb68d7f8d5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I263",
+      "url": "http://foodi-servem.com/data/editor/2501/9ecbeab5583477c7a32cf6ed4f363348_1736396808_7295.png",
+      "local": "assets/source/I263.png",
+      "sha256": "656be790b76238daab7d25223c989d72ac42fa40068ad2b0c9299f3ee7bc579b",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I264",
+      "url": "http://foodi-servem.com/data/editor/2501/9ecbeab5583477c7a32cf6ed4f363348_1736397986_9006.png",
+      "local": "assets/source/I264.png",
+      "sha256": "acd016703601b07b7e325a3aa152825fb4ee2ede865856fdb4174eef0fcd4ff1",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I265",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736323782_8047.png",
+      "local": "assets/source/I265.png",
+      "sha256": "5f9a7bc8775c9e2227b1921d17edc9495a30dc61a84ded3d4e02fa53fb995625",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I266",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736330520_0585.png",
+      "local": "assets/source/I266.png",
+      "sha256": "cdee3961a61422b639d556b1110922e131c023e0b692bbf581623dbd26a01a7e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I267",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736331088_5803.png",
+      "local": "assets/source/I267.png",
+      "sha256": "242be6b2ca233ad8e4e0e679e1aed6953d4bd9831c387d8c8f27cfc03015cf94",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I268",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736331483_244.png",
+      "local": "assets/source/I268.png",
+      "sha256": "77566005aabf750a140209cc6ed99eba473a04a1d73bf6408bcd5fc076cc60e4",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I269",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736332543_6745.png",
+      "local": "assets/source/I269.png",
+      "sha256": "7455bf860b875ae68f8d9e05951e424bbeec5028528a8528d56a24f85650428c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I270",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736332963_5403.jpg",
+      "local": "assets/source/I270.jpg",
+      "sha256": "220fa6c16415c0429f112ec69ed199ce416f2c3aa37685c33e8ae8d233126c8e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I271",
+      "url": "http://foodi-servem.com/data/editor/2501/bfdbf2cdb4fac4355b7f649b71411665_1736333349_5846.jpg",
+      "local": "assets/source/I271.jpg",
+      "sha256": "58f53445e41d36de23eab1e7154fe91562e2840a72b1edbc170b9cda4561aaf7",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I272",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-23d243045408b778f7cd19c2a6d033f8_1736309791_7385_320x320.png",
+      "local": "assets/source/I272.png",
+      "sha256": "0f7e6bd5e3ec8d3aaa56ae95f465da131695bb0dd851f7b74ce4084849062e17",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I273",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-8b66acf7543f12d0c455a16d39da0ec9_1736406157_5778_320x320.png",
+      "local": "assets/source/I273.png",
+      "sha256": "afb667fe8286231e82faeb1ef99bee0453bf96b86429c40f951e03deee09dc43",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I274",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-bfdbf2cdb4fac4355b7f649b71411665_1736323782_8047_320x320.png",
+      "local": "assets/source/I274.png",
+      "sha256": "a6738976798c89bebc824bf9267bd4aacf93c74bd2040cf665503d313c192c95",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I275",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-bfdbf2cdb4fac4355b7f649b71411665_1736330520_0585_320x320.png",
+      "local": "assets/source/I275.png",
+      "sha256": "4aec6a66a5923cb1e86682bb86fcda2ff84b66e4c7a4ceab90f0ee6192393854",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I276",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-bfdbf2cdb4fac4355b7f649b71411665_1736331088_5803_320x320.png",
+      "local": "assets/source/I276.png",
+      "sha256": "8e0bb901fc0c948f1fb62722f66fb7ae1b04deb9e0149e138cf5baf9c313c08e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I277",
+      "url": "http://foodi-servem.com/data/editor/2501/thumb-bfdbf2cdb4fac4355b7f649b71411665_1736331483_244_320x320.png",
+      "local": "assets/source/I277.png",
+      "sha256": "63e0701ac3ac4afb5bde839dc56286add7c1d0b5ae29e89d068b60677fdbaefb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I278",
+      "url": "http://foodi-servem.com/data/editor/2504/500f0c702e7fa35624a83396536ef4c5_1745368799_1136.jpg",
+      "local": "assets/source/I278.jpg",
+      "sha256": "129c72b84f77075ab9c06cee71f34aa0e0c6c17b4191da46a355ab9435e59a2f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I279",
+      "url": "http://foodi-servem.com/data/editor/2608/52d1eaa249520aff0eb1e52d871142a3_1787720010_9998.png",
+      "local": "assets/source/I279.png",
+      "sha256": "6482cf31fc530e02815356055c09ae76e55f21f6a0275a252780ab8f00a3636e",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I280",
+      "url": "http://foodi-servem.com/data/editor/2608/52d1eaa249520aff0eb1e52d871142a3_1787720207_2941.png",
+      "local": "assets/source/I280.png",
+      "sha256": "ba492b008e28918dca320e1bcc19ddf9a97d0374e6ea0c282ad62658f1860acb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I281",
+      "url": "http://foodi-servem.com/data/editor/2608/55bdb6bb90308dc981841ec3c7349b67_1787199620_1394.jpg",
+      "local": "assets/source/I281.jpg",
+      "sha256": "c69bbdf2caa6fbb277fa2ba64638f3b86070cb9f523a8a5966e50a2ecbcf1bb0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I282",
+      "url": "http://foodi-servem.com/data/editor/2608/55bdb6bb90308dc981841ec3c7349b67_1787199662_4889.jpg",
+      "local": "assets/source/I282.jpg",
+      "sha256": "1f0447ddb82427565f80f2c60cfd1baa98ab65dfc09d2c39464446ad4b6c10dd",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I283",
+      "url": "http://foodi-servem.com/data/editor/2608/99ada81507b8635fd01531b1e7091503_1787189301_8704.jpg",
+      "local": "assets/source/I283.jpg",
+      "sha256": "e7713c2c911656326438d028a5af770ecaf1e6eb576b037f2f8bbdb256515be8",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I284",
+      "url": "http://foodi-servem.com/data/editor/2608/99ada81507b8635fd01531b1e7091503_1787189457_8063.jpg",
+      "local": "assets/source/I284.jpg",
+      "sha256": "7164a0b0f030ed55e293ad0d0bcd3fcb354eb05de7b0aff990d9805534e8a80c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I285",
+      "url": "http://foodi-servem.com/data/editor/2608/99ada81507b8635fd01531b1e7091503_1787191434_3971.jpg",
+      "local": "assets/source/I285.jpg",
+      "sha256": "48b2400c0867736b704fdb49e53a32be659052015e3ad74906762cf79bfa1c98",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I286",
+      "url": "http://foodi-servem.com/data/editor/2608/99ada81507b8635fd01531b1e7091503_1787191538_8314.jpg",
+      "local": "assets/source/I286.jpg",
+      "sha256": "f6d0179e9a3a87e6e4a5451387b40b898bdbb3db64d641ce96a1329460b69eab",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I287",
+      "url": "http://foodi-servem.com/data/editor/2608/9a5fa70aed8e67e420b14be88267178b_1787196947_7331.png",
+      "local": "assets/source/I287.png",
+      "sha256": "83d89d1681fbda23274854d7b4e2ed39d3f0c7d4b73297994bd95c724a143bcc",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I288",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-52d1eaa249520aff0eb1e52d871142a3_1787719559_5078_1350x920.png",
+      "local": "assets/source/I288.png",
+      "sha256": "3cba06b143cdf98bb351310df3d37b1bf02f90b94ecc06c4cd5a25db45470de5",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I289",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-52d1eaa249520aff0eb1e52d871142a3_1787720207_2941_320x320.png",
+      "local": "assets/source/I289.png",
+      "sha256": "24434444f1b24273f9bd8e4eda64cbb4a4fb93bc6b4dd2821b2eaa10826e8e95",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I290",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-99ada81507b8635fd01531b1e7091503_1787189301_8704_320x320.jpg",
+      "local": "assets/source/I290.jpg",
+      "sha256": "83e0a12fb036c3745a8727b493ab906fad338ca92632b2f88a33ccca72e61c4d",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I291",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-99ada81507b8635fd01531b1e7091503_1787189457_8063_320x320.jpg",
+      "local": "assets/source/I291.jpg",
+      "sha256": "0a9bcca66c550cdc24df753e567ef20668a5c7475bc81950959271ab16f44079",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I292",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-99ada81507b8635fd01531b1e7091503_1787191434_3971_320x320.jpg",
+      "local": "assets/source/I292.jpg",
+      "sha256": "646ff0658659ddada2a7fe86b9802da9a4d072ed74a9d7f0d1e8d69eb4c017e0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I293",
+      "url": "http://foodi-servem.com/data/editor/2608/thumb-99ada81507b8635fd01531b1e7091503_1787191538_8314_320x320.jpg",
+      "local": "assets/source/I293.jpg",
+      "sha256": "ac28fe8a60d7c4f726a4d3cb012d0e4e2a8fb863300a82aac4b4bacb78e15484",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I294",
+      "url": "http://foodi-servem.com/data/file/pork/3717581313_5Ktlia8T_a726eb6cb5f7ce0b53556c0014698290904528fe.png",
+      "local": "assets/source/I294.png",
+      "sha256": "a9c4ac7aa2b9af2bf0d38e2acc75a5f43b5d211fc00cc0e3d093283a596610bc",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I295",
+      "url": "http://foodi-servem.com/data/file/pork/3717581313_JK7EGed9_2b10c1c01f9bd4fb78c7238d35c614794a47d4a1.png",
+      "local": "assets/source/I295.png",
+      "sha256": "47275ecb3e78329b83402b7ae4107f2e887359e5639913203d5e9d86f2d418fa",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I296",
+      "url": "http://foodi-servem.com/data/file/pork/thumb-3717581313_5Ktlia8T_a726eb6cb5f7ce0b53556c0014698290904528fe_158x151.png",
+      "local": "assets/source/I296.png",
+      "sha256": "c117dd5f5a542a12054316843141469008758828d879ca3de647b6943ef6cb48",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I297",
+      "url": "http://foodi-servem.com/data/file/pork/thumb-3717581313_AidnImSr_90fd068772d4800365d83e6055f969f184d41ed2_320x320.png",
+      "local": "assets/source/I297.png",
+      "sha256": "e420f8c104d5da557ec3df365ca0c590e264586a2915a6cdb5c0103e58e87ae4",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I298",
+      "url": "http://foodi-servem.com/data/file/pork/thumb-3717581313_JK7EGed9_2b10c1c01f9bd4fb78c7238d35c614794a47d4a1_158x150.png",
+      "local": "assets/source/I298.png",
+      "sha256": "11fb51a9d1aa82886a86ac801ddfd70c6b8dbbfa729afd8d0f978ef2800fe20c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I299",
+      "url": "http://foodi-servem.com/data/file/pork/thumb-3717581313_q98imWlA_ee497f342d7eeb81042d7f7b036e22f54c065951_320x320.png",
+      "local": "assets/source/I299.png",
+      "sha256": "9d071f89fc466bc40ac8bdc5361da5d51b8556f4640e53bea7cff55469014afb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I300",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/3717581313_c2d67vTa_3682243cbcc6cfb33cced3b17a785652841a953d.jpg",
+      "local": "assets/source/I300.jpg",
+      "sha256": "628b0cf461d97decfcacf76af9f2ca884fb1c98d6e76bd54a6148b11a2c49146",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I301",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/3717581313_dOQpvoL8_0fedc0fcc3775d6976df58e4043a85ec986d3ac9.png",
+      "local": "assets/source/I301.png",
+      "sha256": "bb048501358e4fdc37981bb011027562d0f34c59575110eee1b7d989d03377bb",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I302",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/thumb-3717581313_VuDmUqdO_7f632e69048bf4950458505ad64ae5306663dfba_320x320.jpg",
+      "local": "assets/source/I302.jpg",
+      "sha256": "03bd0cde7a104453b533394acde14458b8537e1d37503b90e46ffe56a76b79ac",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I303",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/thumb-3717581313_XsPmqURu_87da7d105df1b6d8e69e90355abfa49dac14aef7_320x320.png",
+      "local": "assets/source/I303.png",
+      "sha256": "26f69c99ad3e3e9f918f2c78f24ceb27737cfa87fa1ab6d0b66f8b0694db63df",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I304",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/thumb-3717581313_c2d67vTa_3682243cbcc6cfb33cced3b17a785652841a953d_158x158.jpg",
+      "local": "assets/source/I304.jpg",
+      "sha256": "60014a0c51ef64f72068f33526480dbff6998ca29226b8b97471b65b2250dae0",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I305",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/thumb-3717581313_dOQpvoL8_0fedc0fcc3775d6976df58e4043a85ec986d3ac9_158x126.png",
+      "local": "assets/source/I305.png",
+      "sha256": "b6c6a0762004488ca4f13449a773feb1df7c4702e498476f04c16be75b40be50",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I306",
+      "url": "http://foodi-servem.com/data/file/seasonedmeat/thumb-3717581313_hNRImJTt_8aa22e054389373d9cd3c1d63d7575f459828ace_320x320.jpg",
+      "local": "assets/source/I306.jpg",
+      "sha256": "0b246642a1ba05aa22142dd850cee926c3ccda0767439705fb70d9e6ab08089c",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I307",
+      "url": "http://foodi-servem.com/data/editor/2407/7547a5647f85b0e6d09414fcbe75c2d5_1721705552_5238.png",
+      "local": null,
+      "sha256": "9ae7a3b569ce8d45a232ab6a07d8f8528b2b808abb54f4fa04f9a5f560e3465f",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I308",
+      "url": "http://foodi-servem.com/data/editor/2407/fd87d9c12555b24517798a4b02fa7f3a_1721099530_8784.png",
+      "local": "assets/source/I308.webp",
+      "sha256": "37f97bfac68bb9af0504d56a3ddc3a268fd7ab3a7f97b46dde1a105814f349ea",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I309",
+      "url": "http://foodi-servem.com/data/editor/2410/43313ddd39e63866c55a836cc6fc6945_1729129754_649.jpg",
+      "local": "assets/source/I309.jpg",
+      "sha256": "0b48e0220476735a857ebaeac004c97c7fc558ad5ce2298a1ee61a939d63ac68",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I310",
+      "url": "http://foodi-servem.com/data/editor/2409/42e1b716898fb59e17b0134f3183c60b_1725352893_5034.png",
+      "local": "assets/source/I310.webp",
+      "sha256": "37f97bfac68bb9af0504d56a3ddc3a268fd7ab3a7f97b46dde1a105814f349ea",
+      "group": "products_and_posts"
+    },
+    {
+      "id": "I311",
+      "url": "http://foodi-servem.com/data/editor/2608/52d1eaa249520aff0eb1e52d871142a3_1787719559_5078.png",
+      "local": "assets/source/I311.png",
+      "sha256": "3f0c686e0c38bd0c6932f21a712f3d595c8e14ea37709def08f257c83ecde95a",
+      "group": "products_and_posts"
+    }
+  ],
+  "limits": [
+    "Private inquiry posts and admin excluded",
+    "Third-party press bodies/scans not republished; metadata and source links retained",
+    "Image-only text retained in originals, not fully OCR-verified",
+    "One missing source UI asset: /img/common/form_select.png (404)"
+  ],
+  "latest_review": {
+    "date": "2026-10-13",
+    "basis": "2026-10-12 public snapshot; live re-fetch returned502",
+    "restored": [
+      "CEO portrait I065 in company.html#ceo-message",
+      "display telephone, fax and email in company.html#location",
+      "home promotional images I090/I091/I094 in board.html"
+    ],
+    "verified": {
+      "product_details": 77,
+      "source_pages_and_destination_files": 106,
+      "local_image_records": 305,
+      "external_press_image_records_link_only": 6,
+      "equipment_entries": 9,
+      "facility_images": 3,
+      "quality_documents": 10,
+      "partner_images": 16,
+      "board_posts": 5,
+      "history_years": 10
+    },
+    "limitations": [
+      "Not a fresh exhaustive live crawl",
+      "External press bodies/images linked, not republished",
+      "Private inquiry records/admin not collected",
+      "Inquiry delivery and Board administration not implemented",
+      "Image-only text not fully OCR verified",
+      "Browser/mobile visual QA pending"
+    ],
+    "preservation": "All401 tracked asset files unchanged; alternate thumbnails/decorative UI assets remain accessible through source archive."
+  },
+  "live_audit": {
+    "date": "2026-10-14",
+    "http_success": 106,
+    "http_failed": 0,
+    "products": {
+      "우육": 46,
+      "돈육": 15,
+      "선물세트": 12,
+      "양념육": 4
+    },
+    "notices": 1,
+    "company_news": 4,
+    "public_inquiries": 7,
+    "equipment": 9,
+    "certificates": 10,
+    "partner_images": 16,
+    "history_years": 10,
+    "promotions": 3,
+    "promotion_images": 6,
+    "added": [
+      "메인 홍보 3종 및 모바일 원본 3종",
+      "메인 전화·팩스·이메일",
+      "회사소개에서 인허가·거래처 바로가기"
+    ],
+    "limitations": [
+      "비밀글 본문·답변 미이전",
+      "실제 문의 저장·관리자·실시간 광고 연동 미구현",
+      "기업소식 외부 기사 전문은 내부 요약으로 제공",
+      "브라우저 시각 검수 미수행"
+    ]
+  }
+}

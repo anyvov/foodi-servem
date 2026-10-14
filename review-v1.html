@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="description" content="FOODI SERVEM 리뉴얼의 홈·제품·생산·문의 동선을 검토하는 와이어프레임입니다.">
+  <title>FOODI SERVEM · 디자인 시안 v1</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23202020'/%3E%3Ctext x='8' y='24' fill='white' font-size='23' font-family='sans-serif'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <header class="reviewbar">
+    <div class="reviewbrand"><strong>FOODI SERVEM</strong><span>디자인 시안 v1</span></div>
+    <div class="reviewcontrols">
+      <label for="screen">화면</label><select id="screen"><option value="home">홈</option><option value="products">제품 목록</option><option value="detail">제품 상세</option><option value="production">생산·품질</option><option value="board">게시판 목록</option><option value="boardDetail">게시글 상세</option><option value="contact">문의</option></select>
+      <label for="viewport">폭</label><select id="viewport"><option value="auto">반응형</option><option value="1440">데스크톱 1440</option><option value="768">태블릿 768</option><option value="390">모바일 390</option></select>
+      <button id="notes" type="button" aria-expanded="false" aria-controls="designnotes">설계 메모</button>
+    </div>
+  </header>
+  <div class="reviewnotice">디자인 검토본 · 실제 로고·기존 사진 적용 · 제품 현행성 검수/게시판 관리/실제 문의 전송은 구현 전</div>
+  <main class="reviewbody">
+    <div class="framewrap"><div id="frameholder"><iframe id="siteframe" title="FOODI SERVEM 디자인 시안" src="frame.html"></iframe></div></div>
+    <aside id="designnotes" hidden><h1>설계 메모</h1><div id="notebody"></div></aside>
+  </main>
+  <script src="review.js"></script>
+</body>
+</html>
