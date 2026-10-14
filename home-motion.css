@@ -5,3 +5,20 @@
 @media(prefers-reduced-motion:reduce){.opening-cue{display:none}.reading-progress{display:none}}
 
 @media(max-width:900px){.cinema-hud .cinema-skip{margin-left:auto;flex-shrink:0;justify-content:flex-end}}
+
+/* Post-hero interactions: no mouse tracking, no extra pinned sections. */
+#collection>.section-top,#promotions>.section-top,#business>.section-top,#spaces>.section-top{position:relative;padding-bottom:20px}
+#collection>.section-top:after,#promotions>.section-top:after,#business>.section-top:after,#spaces>.section-top:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:currentColor;opacity:.3;transform:scaleX(var(--section-progress,1));transform-origin:left;pointer-events:none}
+.story-step{position:relative}
+.story-step:before{content:"";position:absolute;top:-1px;left:0;width:100%;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .65s ease}
+.motion-active .story-step.is-current:before{transform:scaleX(1)}
+.story-step h3{transition:color .35s}
+.home-promotions-grid article>a:first-child{display:block}
+.space-grid i,.document-links b,.news-rows>a>span,.closing-link>b{display:inline-block;transition:transform .35s ease}
+.collection-item:focus-visible,.space-grid>a:focus-visible,.home-promotions-grid a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .space-grid>a:hover i,.document-links>a:hover b,.news-rows>a:hover>span,.closing-link:hover>b{transform:translate(4px,-4px)}
+ .motion-active .item-photo img{transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+ .home-promotions-grid article:hover h3{color:var(--red)}
+}
+@media(prefers-reduced-motion:reduce){.story-step:before,.space-grid i,.document-links b,.news-rows>a>span,.closing-link>b{transition:none}}

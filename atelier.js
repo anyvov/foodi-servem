@@ -4,8 +4,8 @@
  const closeMenu=()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')};
  menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';nav.classList.toggle('open',open);menu.setAttribute('aria-expanded',String(open))});
  nav.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu()});
- document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(nav.classList.contains('open')){closeMenu();menu.focus()}if(options.open){options.open=false;options.querySelector('summary').focus()}}});
- document.addEventListener('click',e=>{if(options.open&&!options.contains(e.target))options.open=false});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(nav.classList.contains('open')){closeMenu();menu.focus()}if(options?.open){options.open=false;options.querySelector('summary').focus()}}});
+ document.addEventListener('click',e=>{if(options?.open&&!options.contains(e.target))options.open=false});
  const video=document.querySelector('#opening-film'),button=document.querySelector('#film-toggle'),status=document.querySelector('#film-status'),reduce=matchMedia('(prefers-reduced-motion: reduce)');
  if(!video)return;
  let wanted=false,generation=0;

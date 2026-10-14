@@ -24,6 +24,44 @@
    document.querySelectorAll('.section-top,.collection-heading,.story-heading,.spaces-heading,.company-story-copy,.news-strip>div,.closing>.micro,.closing h2').forEach(el=>{
     gsap.from(el,{y:desktop?36:18,opacity:.25,duration:.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 94%',once:true}});
    });
+   // Each section has its own rhythm; keep links visible and keyboard reachable.
+   const focusCleanups=[];
+   function reveal(el,from,delay=0){
+    const tween=gsap.from(el,{...from,duration:desktop?1:.65,delay,ease:'power3.out',
+     scrollTrigger:{trigger:el,start:'top 94%',once:true}});
+    const finish=()=>tween.progress(1);
+    el.addEventListener('focusin',finish);
+    focusCleanups.push(()=>el.removeEventListener('focusin',finish));
+   }
+   document.querySelectorAll('.collection-item').forEach((el,i)=>{
+    reveal(el,{y:desktop?95:30,opacity:.3,rotation:desktop?(i%2?2:-2):0},desktop?i*.1:0);
+   });
+   document.querySelectorAll('.home-promotions-grid article').forEach((el,i)=>{
+    reveal(el,{y:desktop?65:28,opacity:.35},desktop?i*.12:0);
+    const img=el.querySelector('img');
+    if(img)reveal(img,{clipPath:'inset(0% 12% 14% 12%)'},desktop?i*.12:0);
+   });
+   document.querySelectorAll('.space-grid>a').forEach((el,i)=>{
+    reveal(el,{y:desktop?85:28,opacity:.35},desktop?i*.13:0);
+    const caption=el.querySelector('figcaption');
+    if(caption)reveal(caption,{x:desktop?0:12,y:desktop?22:0},desktop?i*.13+.15:0);
+   });
+   document.querySelectorAll('.document-links>a,.history-pair>a,.news-rows>a').forEach((el,i)=>{
+    reveal(el,{y:desktop?35:18,opacity:.4},desktop?(i%2)*.1:0);
+   });
+   const closingLink=document.querySelector('.closing-link');
+   if(closingLink)reveal(closingLink,{scale:.75,rotation:-20,opacity:.4});
+   document.querySelectorAll('#collection,#promotions,#business,#spaces').forEach(section=>{
+    const top=section.querySelector('.section-top');
+    if(top)gsap.fromTo(top,{'--section-progress':0},{'--section-progress':1,ease:'none',
+     scrollTrigger:{trigger:section,start:'top 80%',end:'bottom 70%',scrub:.5}});
+   });
+   if(!desktop){
+    steps.forEach(step=>{
+     reveal(step,{y:25,opacity:.45});
+     ST.create({trigger:step,start:'top 65%',end:'bottom 35%',toggleClass:'is-current'});
+    });
+   }
    // Native scrolling remains in control; no scroll-jacking, snapping or forced navigation.
    if(desktop){
 
@@ -41,14 +79,14 @@
     gsap.from('.company-wordmark',{y:80,opacity:.2,ease:'none',scrollTrigger:{trigger:'.company-story',start:'top bottom',end:'center center',scrub:.6}});
     document.querySelectorAll('.space-grid img').forEach(el=>gsap.from(el,{scale:1.13,ease:'none',scrollTrigger:{trigger:el,start:'top bottom',end:'center center',scrub:.6}}));
    }
-   return()=>{cleanupCinema?.();resetScenes();};
+   return()=>{focusCleanups.forEach(cleanup=>cleanup());cleanupCinema?.();resetScenes();};
   });
   window.ScrollTrigger.refresh();
  }
  if(!window.gsap||!window.ScrollTrigger){enabled=false;document.documentElement.classList.add('motion-off');emit();return;}
  window.gsap.registerPlugin(window.ScrollTrigger);
  reduce.addEventListener('change',()=>{enabled=!reduce.matches&&!connection?.saveData;sync();});
- connection?.addEventListener?.('change',()=>{if(connection.saveData){enabled=false;sync();}});
+ connection?.addEventListener?.('change',()=>{enabled=!reduce.matches&&!connection.saveData;sync();});
  sync();
  document.fonts?.ready.then(()=>window.ScrollTrigger.refresh());
  window.addEventListener('load',()=>window.ScrollTrigger.refresh(),{once:true});
