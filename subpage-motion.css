@@ -1,0 +1,22 @@
+/* Shared subpage motion. Content stays visible if scripts or motion are disabled. */
+.inner-nav a{position:relative;transition:color .25s,background-color .25s,border-color .25s}
+.inner-nav a[aria-current="location"]{color:var(--red,#872e24);border-color:currentColor}
+.inner-nav a:after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.inner-nav a[aria-current="location"]:after{transform:scaleX(1)}
+.product-card,.promise-grid>article,.document-grid>article,.partner-grid>article,.equipment-grid>article{transition:box-shadow .3s,border-color .3s,background-color .3s}
+.product-thumbnails button{transition:opacity .25s,border-color .25s}
+.board-row{transition:background-color .25s,color .25s}
+.text-link,.solid,.chips button,.pagination a{transition:background-color .25s,color .25s,border-color .25s}
+.contact-form input,.contact-form textarea,.contact-form select{transition:border-color .2s,box-shadow .2s}
+.contact-form :is(input,textarea,select):focus{box-shadow:0 0 0 3px #872e2418}
+#page-content :is(a,button,input,textarea,select):focus-visible{outline:2px solid var(--red,#872e24);outline-offset:4px}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .product-card:hover,.document-grid>article:hover,.partner-grid>article:hover{box-shadow:0 12px 28px #30271b12;border-color:var(--red,#872e24)}
+ .promise-grid>article:hover,.equipment-grid>article:hover{background-color:#d7ccba28}
+ .board-row:hover{background-color:#d7ccba30}
+ .text-link:hover{color:var(--red,#872e24)}
+ .product-thumbnails button:hover{opacity:.75}
+}
+@media(prefers-reduced-motion:reduce){
+ #page-content *,#page-content *:before,#page-content *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
